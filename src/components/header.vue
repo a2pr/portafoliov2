@@ -6,15 +6,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
+                <router-link tag="li" to="/" class="nav-item active">
+                    <a class="nav-link"> Welcome</a>
+                </router-link>
+                <router-link tag="li" to="/work" class="nav-item">
+                    <a class="nav-link"> Work</a>
+                </router-link>
+                <router-link tag="li" to="/contact" class="nav-item">
+                    <a class="nav-link">Contact</a>
+                </router-link>
+                <router-link tag="li" to="/impossible" class="nav-item">
+                    <a class="nav-link">Impossible</a>
+                </router-link>
+
             </ul>
             <span class="navbar-text">Navbar text with an inline element</span>
         </div>

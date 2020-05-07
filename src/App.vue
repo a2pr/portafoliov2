@@ -1,24 +1,22 @@
 <template>
-  <div id="app">
-    <Header></Header>
-    <router-view></router-view>
-    <Welcome class="mt-2"></Welcome>
-  </div>
+    <div id="app">
+        <app-header></app-header>
+        <router-view></router-view>
+        <app-footer></app-footer>
+    </div>
 </template>
 
 <script>
-import Welcome from './components/welcome' ;
-import Header from './components/header';
-export default {
-  name: 'App',
-  routes: [
-    {path:'/', component: Welcome}
-  ],
-  components:{
-    Header:Header,
-    Welcome: Welcome
-  }
-}
+    import Header from './components/header';
+    import Footer from './components/footer'
+
+    export default {
+        name: 'App',
+        components: {
+            appHeader: Header,
+            appFooter: Footer
+        }
+    }
 </script>
 
 <style>
