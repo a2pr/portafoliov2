@@ -1,11 +1,17 @@
 <template>
-    <div class="container-fluid bg-secondary">
-        <div class="text-center">
-            <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a
-                    href="https://twitter.com/mdo">@mdo</a>.</p>
-            <p>
-                <a href="#">Back to top</a>
-            </p>
+    <div class="container-fluid bg-secondary py-3">
+        <div class="text-center mt-2">
+            <div class="row">
+                <div class="col-4 ">
+                    <a class="badge badge-light" href="www.linkedin.com/in/andrespayema">LinkedIn</a>
+                </div>
+                <div class="col-4">
+                    <a class="badge badge-light" href="https://github.com/a2pr"> Github</a>
+                </div>
+                <div class="col-4 ">
+                    <a class="badge badge-light" href="mailto:placeholder@email.com"> Hire me </a>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -18,4 +24,7 @@
 
 <style scoped>
 
+    a{
+        font-size: 1.25rem;
+    }
 </style>

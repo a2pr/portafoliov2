@@ -15,6 +15,11 @@
         components: {
             appHeader: Header,
             appFooter: Footer
+        },
+        data(){
+            return{
+                publicPath: process.env.BASE_URL
+            }
         }
     }
 </script>
