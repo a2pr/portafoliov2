@@ -26,22 +26,17 @@
                 </article>
             </section>
         </div>
-        <div class="row text-center py-4 bg-light">
-            <div class="col-md-6">
-                <h1>Do you need help with your proyect?</h1>
-                <h3>I´m currently looking for freelance work.</h3>
-                <p>If you have a project you want to start, or help with any existent project. Get in touch</p>
-            </div>
-            <div class="col-md-6">
-                <a class="btn btn-lg btn-success" href="">Message me</a>
-            </div>
-        </div>
+        <contact></contact>
     </div>
 </template>
 
 <script>
+    import contact from "./contact";
     export default {
-        name: "welcome"
+        name: "welcome",
+        components:{
+            contact
+        }
     }
 </script>
 
