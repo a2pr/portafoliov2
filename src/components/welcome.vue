@@ -12,24 +12,31 @@
                 </article>
             </section>
         </div>
-        <div class="row">
+        <div class="row ">
             <section class="bg-white text-center col-12">
-                <div class="row">
-                    <article class="mt-5 col-12 col-md-6">
+                <div class="row mt-5 align-items-center">
+                    <article class=" col-12 col-md-6">
                         <h1>What I can do.</h1>
                         <h3>Create your ideal website for your business.</h3>
                         <p>
                             Do you have a business that needs a website? I can help you with that, using modern technologies.
                         </p>
                     </article>
-                    <i class="fa fa-file-word"></i>
+                    <div class="col-md-6">
+                        <img class=" be-part img-thumbnail " src="../assets/imgs/project.png"/>
+                    </div>
+                </div>
+                <div class="row my-5 align-items-center">
+                    <div class=" col-md-6 ">
+                        <img class=" be-part img-thumbnail" src="../assets/imgs/code.jpg"/>
+                    </div>
+                    <article class=" col-12  col-md-6 ">
+                        <h1> I can help you.</h1>
+                        <h3>I´m currently looking for freelance work.</h3>
+                        <p>If you have a project you want to start, or help with any existent project. Get in touch</p>
+                    </article>
                 </div>
 
-                <article class="my-5 col-12 offset-md-6 col-md-6">
-                    <h1> I can help you.</h1>
-                    <h3>I´m currently looking for freelance work.</h3>
-                    <p>If you have a project you want to start, or help with any existent project. Get in touch</p>
-                </article>
             </section>
         </div>
         <contact></contact>
@@ -38,9 +45,10 @@
 
 <script>
     import contact from "./contact";
+
     export default {
         name: "welcome",
-        components:{
+        components: {
             contact
         }
     }
@@ -48,4 +56,8 @@
 
 <style scoped>
 
+    .be-part{
+        max-width: 60%;
+        max-height: 75%;
+    }
 </style>
