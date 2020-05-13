@@ -12,9 +12,13 @@
                 <router-link tag="li" to="/work" class="nav-item">
                     <a class="nav-link"> Work</a>
                 </router-link>
+                <router-link tag="li" to="/skills" class="nav-item">
+                    <a class="nav-link">Skills</a>
+                </router-link>
                 <router-link tag="li" to="/impossible" class="nav-item">
                     <a class="nav-link">Impossible List</a>
                 </router-link>
+
             </ul>
         </div>
     </nav>
