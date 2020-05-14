@@ -1,101 +1,92 @@
 <template>
     <div>
         <div>
-            Ultimos logros
+            <p>
+                This was an idea that i take from Thomas Frank. Probably you know the term of a bucket list, a list of things you wanted to do before you die. A list that could contain a journey you have postpone
+                for different reason or a goal to read 15 books a year. But this list probably hasn´t been part of an active role in your life. An impossible list makes you want to pursuit this goals, dreams or objectives
+                in an active way, keeping you accountable and remind you of the the things you set for yourself.
+                I recommend this video about it, for more explanation about the concept.
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6apcEae2U4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            Primer Curso de Symfony completado (16/2/2020)
+        </div>
+        <div>
+            Current Focuses:
 
-            Vue.js 2 Academy: Learn Vue Step by Step (22/03/2020)
+                Right now my main focus is in the couple of projects for my personal interest. That will help in not only programming proficiency, but also
+                in project management.
 
-            Beginner Bootstrap 4: Hand code beautiful responsive websites fast(20/4/2020)
+            Last achievements:
+
+                Complete Symfony Course (February 2020)
+
+                Complete Vue.js 2 Academy: Learn Vue Step by Step course (22/03/2020)
+
+                Complete Beginner Bootstrap 4: Hand code beautiful responsive websites fast Course(20/4/2020)
         </div>
         <div>
             Habilidades
                 Hablar, escribir y leer Japones (on hold)
-                Aprender Boxeo
-                Aprender Arqueria
-                Aprender a bailar merengue
-                Aprender a bailar salsa
-                Aprender a cocteleria
-                Aprender a disparar un arma
-                Aprender Kendo
+                Learn Boxeo
+                Learn Arqueria
+                Learn a bailar merengue
+                Learn a bailar salsa
+                Learn a cocteleria
+                Learn a disparar un arma
+                Learn Kendo
                 Estilo de hacer cafe
-            Financiero
-                Obtener un ingreso de R$ 5000
-                    Poder ahorrar R$4000
-                    Poder ahorrar R$10000
-                    Salario Bruto de 5k
-                Ganar un salario independiente de 250$
-                Finanzas sistema
-                    version 3 (desktop oriented)
-                    version 4 (mobile oriented)
-                Check family situation and see what i can do
-                    Andrea
-                    Diego
-                    Mami
-                    Papa
+            Finantial Goals
+                Make a income of $900 in a month
+                Save at least $900
+                Make 250$ in freelance work in a month
 
-            Viajes
-                Viajar a Espa;a
-                Viajar a USA
-                Viajar a UK
-                Viajar a Vieralves
-                Viajar a Rio de Janeiro
-                Viajar a Japon
+            Trips
+                Make a solo trip to any destination
+                Make a trip to Espa;a
+                Make a trip to USA
+                Make a trip to UK
+                Make a trip to Vieralves
+                Make a trip to Rio de Janeiro
+                Make a trip to Japon
                 Hokkaido
                     Tokyo
                     Kyoto
-                Viajar solo cualquier destino
-                Viajar a Venezuela
-            Eventos que asistir
+                Make a trip to Venezuela
+
+            Events to assit
                 The international
-                Un mayor de dota 2
+                Dota 2 Major
                 Comic con
                 Comiket
+
             Programacion
                 Herramientas del trabajo
-                Crear mi propio Blog
-                    [Blog de cafes](https://www.notion.so/Blog-de-cafes-5cad7fceac664c8a88e58b7aa6bf01fe)
-
-                Crear una pagina web
-                Set up automatic emails
-                Modificar my portafolio online
-                Crear una aplicacion movil
-                Crear un bot de discord
-                Crear una extension de google chrome for manga tracking
-                Aprender Mysql
-                Aprender Node.js
-                Restful API
-                Aprender JQuery
-                Aprender React.js
-                Redis
-                Aprender Symfony
-                    Primer Curso de Symfony completado (16/2/2020)
-                    Segundo Curso de Symfony
-                Realizar 5 projectos en Symfony
-                    Escribir problemas y beneficios de Symfony
-                Aprender Doctrine
-                Aprender Vue.js
-                    Vue.js 2 Academy: Learn Vue Step by Step
-                    Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router
-                Aprender Docker
-                    set first docker with all the repos i got
-                    Set a docker with my portfolio environment.
+                Create a Blog
+                Modify my portafolio online
+                Create a mobile app
+                Create a discord bot
+                Create a manga tracking chrome extension
+                Learn MYSQL Basics
+                Learn Node.js advanced features
+                Create a Restful API
+                Learn Jquery Basics
+                Learn React
+                Learn Redis basics
+                Learn Symfony
+                    First Course of Symfony completed (16/2/2020)
+                    Second Course of Symfony
+                    Create 5 projects with Symfony
+                    Write an article about the benefits and problems of Symfony
+                Learn Doctrine
+                Learn Vue.js
+                    First Course of Vue.js 2 Academy: Learn Vue Step by Step (22/03/2020)
+                    Second Course of Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router
+                Learn Docker
                 Maintain knowledge in Bootstrap
-                    Beginner Bootstrap 4: Hand code beautiful responsive websites fast
-            Materiales
-                Tablet para ver anime
-                5 camisas personalizadas de anime
-                funda para LN
-                XBOX One
-
-                [Lista de necesidades](https://www.notion.so/Lista-de-necesidades-17e0a983d7074e2ca0a4e75fb4c3fa4a)
-
-                Una laptop de trabajo
-
+                    Beginner Bootstrap 4: Hand code beautiful responsive websites fast (20/4/2020)
             Fisico
-                Reducir peso a 75~80 kg
-                Mantener una rutina semanal de 15 min de ejercicio( 2 semanas)
+                Mantain a wight of 75~80 kg
+                Mantain a weekly routine of 15 min for 2 weeks
         </div>
 
 
