@@ -1,96 +1,115 @@
 <template>
-    <div>
-        <div>
-            <p>
+    <div class="container-fluid">
+        <div class="container text-center pt-5">
+            <p class="descrip text-justify">
                 This was an idea that i take from Thomas Frank. Probably you know the term of a bucket list, a list of things you wanted to do before you die. A list that could contain a journey you have postpone
                 for different reason or a goal to read 15 books a year. But this list probably hasn´t been part of an active role in your life. An impossible list makes you want to pursuit this goals, dreams or objectives
                 in an active way, keeping you accountable and remind you of the the things you set for yourself.
                 I recommend this video about it, for more explanation about the concept.
             </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/6apcEae2U4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="mt-2" width="560" height="315" src="https://www.youtube.com/embed/6apcEae2U4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         </div>
-        <div>
-            Current Focuses:
+        <div class="mt-5 container">
+                <h2>Current Focuses:</h2>
+                <p class="descrip text-justify">
+                    Right now my main focus is in the couple of projects for my personal interest. That will help in not only programming proficiency, but also
+                    in project management.
+                </p>
 
-                Right now my main focus is in the couple of projects for my personal interest. That will help in not only programming proficiency, but also
-                in project management.
-
-            Last achievements:
-
-                Complete Symfony Course (February 2020)
-
-                Complete Vue.js 2 Academy: Learn Vue Step by Step course (22/03/2020)
-
-                Complete Beginner Bootstrap 4: Hand code beautiful responsive websites fast Course(20/4/2020)
-        </div>
-        <div>
-            Habilidades
-                Hablar, escribir y leer Japones (on hold)
-                Learn Boxeo
-                Learn Arqueria
-                Learn a bailar merengue
-                Learn a bailar salsa
-                Learn a cocteleria
-                Learn a disparar un arma
-                Learn Kendo
-                Estilo de hacer cafe
-            Finantial Goals
-                Make a income of $900 in a month
-                Save at least $900
-                Make 250$ in freelance work in a month
-
-            Trips
-                Make a solo trip to any destination
-                Make a trip to Espa;a
-                Make a trip to USA
-                Make a trip to UK
-                Make a trip to Vieralves
-                Make a trip to Rio de Janeiro
-                Make a trip to Japon
-                Hokkaido
-                    Tokyo
-                    Kyoto
-                Make a trip to Venezuela
-
-            Events to assit
-                The international
-                Dota 2 Major
-                Comic con
-                Comiket
-
-            Programacion
-                Herramientas del trabajo
-                Create a Blog
-                Modify my portafolio online
-                Create a mobile app
-                Create a discord bot
-                Create a manga tracking chrome extension
-                Learn MYSQL Basics
-                Learn Node.js advanced features
-                Create a Restful API
-                Learn Jquery Basics
-                Learn React
-                Learn Redis basics
-                Learn Symfony
-                    First Course of Symfony completed (16/2/2020)
-                    Second Course of Symfony
-                    Create 5 projects with Symfony
-                    Write an article about the benefits and problems of Symfony
-                Learn Doctrine
-                Learn Vue.js
-                    First Course of Vue.js 2 Academy: Learn Vue Step by Step (22/03/2020)
-                    Second Course of Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router
-                Learn Docker
-                Maintain knowledge in Bootstrap
-                    Beginner Bootstrap 4: Hand code beautiful responsive websites fast (20/4/2020)
-            Fisico
-                Mantain a wight of 75~80 kg
-                Mantain a weekly routine of 15 min for 2 weeks
+                <h3>Last achievements:</h3>
+                <ul class="achivements">
+                    <li>Complete Symfony Course (February 2020)</li>
+                    <li>Complete Vue.js 2 Academy: Learn Vue Step by Step course (22/03/2020)</li>
+                    <li>Complete Beginner Bootstrap 4: Hand code beautiful responsive websites fast Course(20/4/2020)</li>
+                </ul>
         </div>
 
-
+        <div class="my-5 container">
+            <div class="workingOn">
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Hablar, escribir y leer Japones (on hold) </li>
+                    <li>Learn Boxeo </li>
+                    <li>Learn Arqueria </li>
+                    <li>Learn a bailar merengue </li>
+                    <li>Learn a bailar salsa </li>
+                    <li> Learn a cocteleria </li>
+                    <li>Learn a disparar un arma </li>
+                    <li>Learn Kendo</li>
+                    <li>Estilo de hacer cafe</li>
+                </ul>
+                <h3>Finantial Goals</h3>
+                <ul>
+                    <li>Make a income of $900 in a month</li>
+                    <li>Save at least $900</li>
+                    <li>Make 250$ in freelance work in a month</li>
+                </ul>
+                <h3>Trips</h3>
+                <ul>
+                    <li><strong> Make a solo trip to any destination</strong></li>
+                    <li>Make a trip to Spain</li>
+                    <li>Make a trip to USA</li>
+                    <li>Make a trip to UK</li>
+                    <li>Make a trip to Vieralves</li>
+                    <li>Make a trip to Rio de Janeiro</li>
+                    <span>Make a trip to Japon</span>
+                    <ul>
+                        <li>Hokkaido</li>
+                        <li>Tokyo</li>
+                        <li>Kyoto</li>
+                    </ul>
+                    <li>Make a trip to Venezuela</li>
+                </ul>
+                <h3>Events to assit</h3>
+                <ul>
+                    <li>The international</li>
+                    <li>Dota 2 Major</li>
+                    <li>Comic con</li>
+                    <li>Comiket</li>
+                </ul>
+                <h3>Programacion</h3>
+                <ul>
+                    <li>Herramientas del trabajo</li>
+                    <li>Create a Blog</li>
+                    <li>Modify my portafolio online</li>
+                    <li>Create a mobile app</li>
+                    <li>Create a discord bot</li>
+                    <li>Create a manga tracking chrome extension</li>
+                    <li>Learn MYSQL Basics</li>
+                    <li>Learn Node.js advanced features</li>
+                    <li>Create a Restful API</li>
+                    <li>Learn Jquery Basics</li>
+                    <li>Learn React</li>
+                    <li>Learn Redis basics</li>
+                    <span>Learn Symfony</span>
+                    <ul>
+                        <li class="completed">First Course of Symfony completed (16/2/2020)</li>
+                        <li>Second Course of Symfony</li>
+                        <li>Create 5 projects with Symfony</li>
+                        <li>Write an article about the benefits and problems of Symfony</li>
+                    </ul>
+                    <li>Learn Doctrine</li>
+                    <span>Learn Vue.js</span>
+                    <ul>
+                        <li class="completed">First Course of Vue.js 2 Academy: Learn Vue Step by Step (22/03/2020)</li>
+                        <li>Second Course of Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router</li>
+                    </ul>
+                    <li>Learn Docker</li>
+                    <span>Maintain knowledge in Bootstrap</span>
+                    <ul>
+                        <li class="completed">Beginner Bootstrap 4: Hand code beautiful responsive websites fast (20/4/2020)</li>
+                    </ul>
+                </ul>
+                <h3>Fisico</h3>
+                <ul>
+                    <li>Mantain a wight of 75~80 kg</li>
+                    <li>Mantain a weekly routine of 15 min for 2 weeks</li>
+                </ul>
+            </div>
+        </div>
     </div>
+
 </template>
 
 <script>
@@ -101,4 +120,21 @@
 
 <style scoped>
 
+    .achivements{
+        list-style-type: hiragana;
+        font-size: 1.7rem ;
+    }
+
+    .workingOn ul{
+       list-style-type: none;
+    }
+    span, li{
+        font-size: 1.5rem;
+    }
+    .completed{
+        text-decoration: line-through;
+    }
+    .descrip{
+        font-size: 1.5rem;
+    }
 </style>
