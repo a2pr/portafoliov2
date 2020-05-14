@@ -3,13 +3,13 @@
         <div class="text-center mt-2">
             <div class="row">
                 <div class="col-4 ">
-                    <a class="badge badge-light" href="www.linkedin.com/in/andrespayema">LinkedIn</a>
+                    <a class="badge badge-light" href="https://www.linkedin.com/in/andrespayema" target="_blank">LinkedIn</a>
                 </div>
                 <div class="col-4">
-                    <a class="badge badge-light" href="https://github.com/a2pr"> Github</a>
+                    <a class="badge badge-light" href="https://github.com/a2pr" target="_blank"> Github</a>
                 </div>
                 <div class="col-4 ">
-                    <a class="badge badge-light" href="mailto:placeholder@email.com"> Hire me </a>
+                    <a class="badge badge-light" href="mailto:placeholder@email.com" target="_blank"> Hire me </a>
                 </div>
             </div>
         </div>
