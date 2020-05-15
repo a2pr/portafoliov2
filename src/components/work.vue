@@ -5,8 +5,12 @@
                 <img v-if="work.img" :src='work.img' alt=""/>
                 <h1> {{work.title}}</h1>
                 <p>{{work.description}}</p>
-                <a class="btn btn-outline-dark" :href="work.link">
+                <a v-if="work.link" class="btn btn-outline-dark" :href="work.link">
+
                     <i class="fa fa-github"></i>
+                </a>
+                <a v-else class="btn btn-outline-dark" :href="work.project">
+                    <i class="fa fa-folder-open"></i>
                 </a>
             </div>
         </div>
@@ -24,7 +28,7 @@
                         'title': 'Testing testing testing',
                         'description': ' As part of Made simple group, i have being writting/developing tests to verify new features',
                         'img': '',
-                        'link': 'https://www.companiesmadesimple.com/'
+                        'project': 'https://www.companiesmadesimple.com/'
                     },
                     2: {
                         'title': 'Music collection app',
