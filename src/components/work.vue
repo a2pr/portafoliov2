@@ -1,12 +1,11 @@
 <template>
     <div class="text-center">
         <div class="container-fluid py-5  works" v-for="(work, index) in works" :key="index">
-            <div class="col-6 mx-auto">
+            <div class="offset-md-3 col-md-6 col-xs-8">
                 <img v-if="work.img" :src='work.img' alt=""/>
                 <h1> {{work.title}}</h1>
                 <p>{{work.description}}</p>
                 <a v-if="work.link" class="btn btn-outline-dark" :href="work.link">
-
                     <i class="fa fa-github"></i>
                 </a>
                 <a v-else class="btn btn-outline-dark" :href="work.project">
@@ -43,7 +42,7 @@
                         'link': 'https://github.com/a2pr/rss-personal-reader'
                     },
                     4: {
-                        'title': 'FinatialTracking App',
+                        'title': 'Finatial Tracking App',
                         'description': 'Currently working in an app to store daily income and expenses, using dinamic funds and subfunds ' +
                             'that the user can modify depending of need.\n' +
                             'Using graphics to show user expending behavior and alarms to notify self-proclaimed limit reach in each sub-fund created.',
@@ -71,7 +70,9 @@
         background: #FFF;
     }
 
-
+    p{
+        font-size: 1.25rem;
+    }
     i{
         font-size: 40px;
     }

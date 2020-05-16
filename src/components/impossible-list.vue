@@ -1,13 +1,17 @@
 <template>
     <div class="container-fluid">
         <div class="container text-center pt-5">
+            <h1>Impossible List</h1>
             <p class="descrip text-justify">
                 This was an idea that i take from Thomas Frank. Probably you know the term of a bucket list, a list of things you wanted to do before you die. A list that could contain a journey you have postpone
                 for different reasons, lost some weight or to read 15 books a year. But this list probably hasn´t been part of an active role in your life. An impossible list makes you want to pursuit this goals, dreams or objectives
                 in an active way, keeping you accountable and remind you of the the things you set for yourself.
                 I recommend this video about it, for more explanation about the concept.
             </p>
-            <iframe class="mt-2" width="560" height="315" src="https://www.youtube.com/embed/6apcEae2U4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/6apcEae2U4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
 
         </div>
         <div class="mt-5 container">

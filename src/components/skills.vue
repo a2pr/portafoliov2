@@ -1,17 +1,20 @@
 <template>
     <div class="container-fluid my-4">
         <div class="container">
+            <h2>A couple of skills.... </h2>
             <div class="row text-center">
-                <div v-for="(skill, index) in skills" :key="index" class="col-4 skillContainer mt-2 p-2">
+                <div v-for="(skill, index) in skills" :key="index" class=" col-xs-12 col-md-4 skillContainer my-2 p-2">
                     <h3 class="text-uppercase" v-bind:class="{badge: active}">{{skill.name}}</h3>
                     <img v-if="skill.img" class="img-fluid rounded" :src="skill.img" :alt="skill.name"/>
                 </div>
             </div>
         </div>
+        <contact></contact>
     </div>
 </template>
 
 <script>
+    import contact from "./contact";
     export default {
         name: "skills",
         data(){
@@ -100,6 +103,9 @@
 
                 }
             }
+        },
+        components: {
+            contact
         }
     }
 </script>

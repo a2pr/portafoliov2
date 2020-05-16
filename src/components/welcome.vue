@@ -60,4 +60,7 @@
         max-width: 60%;
         max-height: 75%;
     }
+    p{
+        font-size: 1.25rem;
+    }
 </style>
