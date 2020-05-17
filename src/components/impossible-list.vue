@@ -110,13 +110,18 @@
                 </ul>
             </div>
         </div>
+        <contact></contact>
     </div>
 
 </template>
 
 <script>
+    import contact from "./contact";
     export default {
-        name: "Impossible"
+        name: "Impossible",
+        components:{
+            contact
+        }
     }
 </script>
 

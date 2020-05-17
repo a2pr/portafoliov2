@@ -3,9 +3,8 @@
         <div class="container">
             <h2>A couple of skills.... </h2>
             <div class="row text-center">
-                <div v-for="(skill, index) in skills" :key="index" class=" col-xs-12 col-md-4 skillContainer my-2 p-2">
-                    <h3 class="text-uppercase" v-bind:class="{badge: active}">{{skill.name}}</h3>
-                    <img v-if="skill.img" class="img-fluid rounded" :src="skill.img" :alt="skill.name"/>
+                <div v-for="(skill, index) in skills" :key="index"  class=" col-xs-12 col-md-4 skillContainer my-2 p-2">
+                    <h3 class="text-uppercase" >{{skill.name}}</h3>
                 </div>
             </div>
         </div>
@@ -22,42 +21,36 @@
                 skills:{
                     1:{
                         'name':'php',
-                        'img':'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9ShU97ix596gvjP0Xsf8AeIrQCIUmaXPEsY0LseaEB2zPF75&s',
                         'active':'true'
                     },
                     2:{
                         'name':'javascript',
-                        'img':'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf_OvtOnugC2rS83xXYlgl3_ruVTf1Z_n0wIN1bDpZ4e-bpUnugQ&s',
+
                         'active':'false'
                     },
                     3:{
                         'name':'C',
-                        'img':'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmBPO1eBG2FSPhRgfWTEDmtWY-lFbocfZt0vv_ZaQRNqirkVTk&usqp=CAU',
                         'active':'true'
                     },
                     4:{
                         'name':'C #',
-                        'img':'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmBPO1eBG2FSPhRgfWTEDmtWY-lFbocfZt0vv_ZaQRNqirkVTk&usqp=CAU',
                         'active':'false'
                     },
                     5:{
                         'name':'Mysql',
-                        'img':'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROZAuraj254RPGmj5Nzxyndk2iY75SUIkhj0a48-F56B7aoR9K&usqp=CAU',
+
                         'active':'true'
                     },
                     6:{
                         'name':'Bootstrat',
-                        'img':'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmJJLiLK3HUl1JJAcK4sHxtkzk9CfZ66cew0f8VGrH4NH-QLC1&usqp=CAU',
                         'active':'false'
                     },
                     8:{
                         'name':'Vue.js',
-                        'img':'',
                         'active':'true'
                     },
                     9:{
                         'name':'Typescript',
-                        'img':'',
                         'active':'false'
                     },
                     10:{

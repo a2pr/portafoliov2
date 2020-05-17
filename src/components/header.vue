@@ -31,5 +31,7 @@
 </script>
 
 <style scoped>
-
+a{
+    font-size: 1.4rem;
+}
 </style>

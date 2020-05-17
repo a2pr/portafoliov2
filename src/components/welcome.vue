@@ -54,13 +54,13 @@
     }
 </script>
 
-<style scoped>
+<style >
 
     .be-part{
         max-width: 60%;
         max-height: 75%;
     }
     p{
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 </style>

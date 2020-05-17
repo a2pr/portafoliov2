@@ -13,12 +13,17 @@
                 </a>
             </div>
         </div>
+        <contact></contact>
     </div>
 </template>
 
 <script>
+    import contact from "./contact";
     export default {
         name: "work",
+        components:{
+            contact
+        },
         data()
         {
             return {
