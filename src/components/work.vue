@@ -36,7 +36,8 @@
                     },
                     2: {
                         'title': 'Music collection app',
-                        'description': 'A simple music library with login using MVC framework. That list users preferend artists, albums an musics.',
+                        'description': 'A simple music library,  with login interface taking advantage of using MVC framework. ' +
+                            'It lists the user\'s preferred artists, albums and musics.',
                         'img': '',
                         'link': 'https://github.com/a2pr/musiccollection'
                     },

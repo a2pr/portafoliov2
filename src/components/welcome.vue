@@ -6,8 +6,8 @@
                     <h1>Hello there.</h1>
                     <img src="../assets/imgs/andresp.jpg" width="25%" class="rounded-circle"/>
                     <div class="mt-2">
-                        <p> My name is Andres, I´m web developer based in Manaus, Brazil. I have a passion
-                            for Learning new things and love to create things with it.</p>
+                        <p> My name is Andres, I´m a web developer based in Manaus, Brazil.
+                            I have a passion for learning and love being part of new things .</p>
                     </div>
                 </article>
             </section>
@@ -33,7 +33,6 @@
                     <article class=" col-12  col-md-6 ">
                         <h1> I can help you.</h1>
                         <h3>I´m currently looking for freelance work.</h3>
-                        <p>If you have a project you want to start, or help with any existent project. Get in touch</p>
                     </article>
                 </div>
 

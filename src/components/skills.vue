@@ -42,7 +42,7 @@
                         'active':'true'
                     },
                     6:{
-                        'name':'Bootstrat',
+                        'name':'Bootstrap',
                         'active':'false'
                     },
                     8:{
@@ -89,7 +89,7 @@
                         'active':'true'
                     },
                     17:{
-                        'name':'NodeJs',
+                        'name':'Node.Js',
                         'img':'',
                         'active':'false'
                     },
