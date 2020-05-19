@@ -30,7 +30,7 @@
                 works: {
                     1: {
                         'title': 'Testing testing testing',
-                        'description': ' As part of Made simple group, i have being writting/developing tests to verify new features',
+                        'description': ' As part of Made simple group, I have being writting/developing tests to verify new features',
                         'img': '',
                         'project': 'https://www.companiesmadesimple.com/'
                     },
@@ -43,13 +43,13 @@
                     },
                     3: {
                         'title': 'Modify Rss reader',
-                        'description': 'A simple rss reader i modify to get the contents from new post from reddit and mangadex',
+                        'description': 'A simple rss reader I modified to get the contents from new post from reddit and mangadex',
                         'img': '',
                         'link': 'https://github.com/a2pr/rss-personal-reader'
                     },
                     4: {
                         'title': 'Finatial Tracking App',
-                        'description': 'Currently working in an app to store daily income and expenses, using dinamic funds and subfunds ' +
+                        'description': 'Currently working in an app to store daily income and expenses, using dynamic funds and subfunds ' +
                             'that the user can modify depending of need.\n' +
                             'Using graphics to show user expending behavior and alarms to notify self-proclaimed limit reach in each sub-fund created.',
                         'img': '',
@@ -57,7 +57,7 @@
                     },
                     5: {
                         'title': 'Pizza management app',
-                        'description': 'App to manage pizzeria management routines and adding new orders from client, using login for users and admin.',
+                        'description': 'App to manage pizzeria management routines and adding new orders from clients, using login for users and admin.',
                         'img': '',
                         'link': 'https://github.com/a2pr/Programa-PIM'
                     }

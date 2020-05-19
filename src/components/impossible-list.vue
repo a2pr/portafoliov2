@@ -4,7 +4,7 @@
             <h1>Impossible List</h1>
             <p class="descrip text-justify">
                 This was an idea that i take from Thomas Frank. Probably you know the term of a bucket list, a list of things you wanted to do before you die. A list that could contain a journey you have postpone
-                for different reasons, lost some weight or to read 15 books a year. But this list probably hasn´t been part of an active role in your life. An impossible list makes you want to pursuit this goals, dreams or objectives
+                for different reasons, lost some weight or to read 15 books a year. But this list probably hasn't been part of an active role in your life. An impossible list makes you want to pursuit this goals, dreams or objectives
                 in an active way, keeping you accountable and remind you of the the things you set for yourself.
                 I recommend this video about it, for more explanation about the concept.
             </p>
@@ -17,7 +17,7 @@
         <div class="mt-5 container">
                 <h2>Current Focuses:</h2>
                 <p class="descrip text-justify">
-                    Right now my main focus is in the couple of projects for my personal interest. That will help in not only programming proficiency, but also
+                    Right now my main focus is in a couple of projects for my personal interest. That will help in not only programming proficiency, but also
                     in project management.
                 </p>
 
@@ -38,36 +38,36 @@
                     <li>Learn Archery </li>
                     <li>Learn how to dance merengue</li>
                     <li>Learn how to dance salsa </li>
-                    <li> Learn a cocktail</li>
+                    <li> Learn a cocktails</li>
                     <li>Learn how to shoot gun</li>
                     <li>Learn Kendo</li>
                 </ul>
                 <h3>Financial Goals</h3>
                 <ul>
-                    <li>Make a income of $900 in a month</li>
-                    <li>Save at least $900</li>
+                    <li>Get a income of 900$ in a month</li>
+                    <li>Save at least 900$</li>
                     <li>Make 250$ in freelance work in a month</li>
                 </ul>
-                <h3>Trips</h3>
+                <h3>Travels goals</h3>
                 <ul>
-                    <li><strong> Make a solo trip to any destination</strong></li>
-                    <li>Make a trip to Spain</li>
-                    <li>Make a trip to USA</li>
-                    <li>Make a trip to UK</li>
-                    <li>Make a trip to Vieralves</li>
-                    <li>Make a trip to Rio de Janeiro</li>
-                    <span>Make a trip to Japon</span>
+                    <li><strong> Make a solo travel to any destination</strong></li>
+                    <li>Make a travel to Spain</li>
+                    <li>Make a travel to USA</li>
+                    <li>Make a travel to UK</li>
+                    <li>Make a travel to Vieralves</li>
+                    <li>Make a travel to Rio de Janeiro</li>
+                    <span>Make a travel to Japan</span>
                     <ul>
                         <li>Hokkaido</li>
                         <li>Tokyo</li>
                         <li>Kyoto</li>
                     </ul>
-                    <li>Make a trip to Venezuela</li>
+                    <li>Make a travel to Venezuela</li>
                 </ul>
                 <h3>Events to assist</h3>
                 <ul>
-                    <li>The international</li>
-                    <li>Dota 2 Major</li>
+                    <li>The International</li>
+                    <li>A Dota 2 Major</li>
                     <li>Comic con</li>
                     <li>Comiket</li>
                 </ul>
@@ -103,7 +103,7 @@
                         <li class="completed">Beginner Bootstrap 4: Hand code beautiful responsive websites fast (20/4/2020)</li>
                     </ul>
                 </ul>
-                <h3>Physical goals</h3>
+                <h3>Health goals</h3>
                 <ul>
                     <li>Maintain a wight of 75~80 kg</li>
                     <li>Maintain  a weekly routine of 15 min for 2 weeks</li>
