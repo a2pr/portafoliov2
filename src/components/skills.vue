@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid my-4">
         <div class="container">
-            <h2>A couple of skills.... </h2>
+            <h2> Some of my skills .... </h2>
             <div class="row text-center">
                 <div v-for="(skill, index) in skills" :key="index"  class=" col-xs-12 col-md-4 skillContainer my-2 p-2">
                     <h3 class="text-uppercase" >{{skill.name}}</h3>

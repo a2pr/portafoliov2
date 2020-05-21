@@ -30,34 +30,34 @@
                 works: {
                     1: {
                         'title': 'Testing testing testing',
-                        'description': ' As part of Made simple group, I have being writting/developing tests to verify new features',
+                        'description': ' As part of Made simple group, I have being writing/developing tests to verify new features',
                         'img': '',
                         'project': 'https://www.companiesmadesimple.com/'
                     },
                     2: {
                         'title': 'Music collection app',
                         'description': 'A simple music library,  with login interface taking advantage of using MVC framework. ' +
-                            'It lists the user\'s preferred artists, albums and musics.',
+                            'It lists the user\'s preferred artists, albums and songs.',
                         'img': '',
                         'link': 'https://github.com/a2pr/musiccollection'
                     },
                     3: {
                         'title': 'Modify Rss reader',
-                        'description': 'A simple rss reader I modified to get the contents from new post from reddit and mangadex',
+                        'description': 'A simple rss reader I modified to get the contents from new posts from Reddit and Mangadex',
                         'img': '',
                         'link': 'https://github.com/a2pr/rss-personal-reader'
                     },
                     4: {
                         'title': 'Finatial Tracking App',
-                        'description': 'Currently working in an app to store daily income and expenses, using dynamic funds and subfunds ' +
-                            'that the user can modify depending of need.\n' +
-                            'Using graphics to show user expending behavior and alarms to notify self-proclaimed limit reach in each sub-fund created.',
+                        'description': 'Currently working on an app to store daily income and expenses. It uses dynamic ' +
+                            'funds and subfunds that the user can modify according to his needs. It also shows the spending ' +
+                            'behavior and sets alarm to notify if a selected limit is reached in expenses',
                         'img': '',
                         'link': 'https://github.com/a2pr/fta-project'
                     },
                     5: {
                         'title': 'Pizza management app',
-                        'description': 'App to manage pizzeria management routines and adding new orders from clients, using login for users and admin.',
+                        'description': 'App for restaurant routines. It keeps track of orders, has login for regular users and admins',
                         'img': '',
                         'link': 'https://github.com/a2pr/Programa-PIM'
                     }
