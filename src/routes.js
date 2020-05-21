@@ -5,7 +5,7 @@ import skills from "./components/skills";
 
 export const routes =[
     {path:'/', component: Welcome},
-    {path:'', component: Welcome},
+    {path:'*', component: Welcome},
     {path: '/impossible', component: Impossible},
     {path: '/work', component: Work},
     {path:'/skills', component: skills}
