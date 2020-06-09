@@ -60,6 +60,12 @@
                         'description': 'App for restaurant routines. It keeps track of orders, has login for regular users and admins',
                         'img': '',
                         'link': 'https://github.com/a2pr/Programa-PIM'
+                    },
+                    6:{
+                        'title': 'Movie theaters app',
+                        'description': 'App for small Movie theaters network, for ticket sell using debit, credit cards and criptocurrency. Project base on C#',
+                        'img': '',
+                        'link': 'https://github.com/a2pr/cinemaPIM'
                     }
                 }
             }
