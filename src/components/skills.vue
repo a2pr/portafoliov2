@@ -54,7 +54,7 @@
                         'active':'false'
                     },
                     10:{
-                        'name':'PhphUnit',
+                        'name':'PhpUnit',
                         'img':'',
                         'active':'true'
                     },

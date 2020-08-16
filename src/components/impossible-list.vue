@@ -9,35 +9,35 @@
                 I recommend this video about it, for more explanation about the concept.
             </p>
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/6apcEae2U4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6apcEae2U4w" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
             </div>
-
         </div>
         <div class="mt-5 container">
-                <h2>Current Focuses:</h2>
-                <p class="descrip text-justify">
-                    Right now my main focus is in a couple of projects for my personal interest. That will help in not only programming proficiency, but also
-                    in project management.
-                </p>
-
-                <h3>Last achievements:</h3>
-                <ul class="achivements">
-                    <li>Complete Symfony Course (February 2020)</li>
-                    <li>Complete Vue.js 2 Academy: Learn Vue Step by Step course (22/03/2020)</li>
-                    <li>Complete Beginner Bootstrap 4: Hand code beautiful responsive websites fast Course(20/4/2020)</li>
-                </ul>
+            <h2>Current Focuses:</h2>
+            <p class="descrip text-justify">
+                Right now my main focus is in a couple of projects for my personal interest. That will help in not only programming proficiency, but also
+                in project management.
+            </p>
+            <h3>Last achievements:</h3>
+            <ul class="achivements">
+                <li>Beginner Bootstrap 4: Hand code beautiful responsive websites fast (Abril 2020)</li>
+                <li>Modify my portafolio online(May 2020)</li>
+                <li>Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router(June 2020)</li>
+                <li>GraphQL Apollo Server with Node.js, MongoDB - GraphQL API (July 2020)</li>
+                <li>Primer curso Aprende a crear tu propio correo con PHP7, MySQL, Html5 (July 2020)</li>
+            </ul>
         </div>
-
         <div class="my-5 container">
             <div class="workingOn">
                 <h3>New skills</h3>
                 <ul>
-                    <li>Read, write and speak Japanese (on hold) </li>
-                    <li>Learn Boxing </li>
-                    <li>Learn Archery </li>
+                    <li>Read, write and speak Japanese (on hold)</li>
+                    <li>Learn Boxing</li>
+                    <li>Learn Archery</li>
                     <li>Learn how to dance merengue</li>
-                    <li>Learn how to dance salsa </li>
+                    <li>Learn how to dance salsa</li>
                     <li> Learn a cocktails</li>
                     <li>Learn how to shoot gun</li>
                     <li>Learn Kendo</li>
@@ -63,6 +63,8 @@
                         <li>Kyoto</li>
                     </ul>
                     <li>Make a travel to Venezuela</li>
+                    <li>Make a travel to Argentina</li>
+                    <li>Make a travel to Canada</li>
                 </ul>
                 <h3>Events to assist</h3>
                 <ul>
@@ -74,7 +76,13 @@
                 <h3>Programing goals</h3>
                 <ul>
                     <li>Create a Blog</li>
-                    <li>Modify my portafolio online</li>
+                    <span class="completed">Modify my portafolio online (May 2020)</span>
+                    <ul >
+                        <li>Add testing with Jtest</li>
+                        <li>Modify project to use gitlab</li>
+                        <li>Modify server to reload correctly</li>
+                    </ul>
+
                     <li>Create a mobile app</li>
                     <li>Create a discord bot</li>
                     <li>Create a manga tracking chrome extension</li>
@@ -91,22 +99,50 @@
                         <li>Create 5 projects with Symfony</li>
                         <li>Write an article about the benefits and problems of Symfony</li>
                     </ul>
-                    <li>Learn Doctrine</li>
+                    <span>Level up php</span>
+                    <ul>
+                        <li class="completed">Primer curso Aprende a crear tu propio correo con PHP7, MySQL, Html5 (28/7/2020)</li>
+
+                    </ul>
+                    <span>Learn Laravel</span>
+                    <span>Learn Doctrine</span>
+                    <ul>
+                        <li>PHP Databases with Doctrine, MySQL and SQLite</li>
+                    </ul>
                     <span>Learn Vue.js</span>
                     <ul>
                         <li class="completed">First Course of Vue.js 2 Academy: Learn Vue Step by Step (22/03/2020)</li>
-                        <li>Second Course of Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router</li>
+                        <li class="completed">Second Course of Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router (June 2020)</li>
+                        <li>Create 4 projects with it</li>
+                        <li>Write and article about its advantages and fails</li>
                     </ul>
-                    <li>Learn Docker</li>
+                    <span>Learn Docker</span>
+                    <ul>
+                        <li>set first docker with all the repos i got</li>
+                        <li>Set a docker with my portfolio environment.</li>
+                    </ul>
                     <span>Maintain knowledge in Bootstrap</span>
                     <ul>
                         <li class="completed">Beginner Bootstrap 4: Hand code beautiful responsive websites fast (20/4/2020)</li>
+                    </ul>
+                    <span>Learn Graphql</span>
+                    <ul>
+                        <li class="completed">GraphQL Apollo Server with Node.js, MongoDB - GraphQL API (June 2020)</li>
+                        <li>Full-Stack VUE with Graphql - the Ultimate Guide</li>
                     </ul>
                 </ul>
                 <h3>Health goals</h3>
                 <ul>
                     <li>Maintain a wight of 75~80 kg</li>
-                    <li>Maintain  a weekly routine of 15 min for 2 weeks</li>
+                    <li>Maintain a weekly routine of 15 min for 2 weeks</li>
+                </ul>
+                <h3>QA goals</h3>
+                <ul>
+                    <li>TSPI</li>
+                    <li>Winston Castillo Series for QA testing.</li>
+                    <li>CI for github</li>
+                    <li>CI for gitlab</li>
+                    <li>Run first automate test for any personal project.</li>
                 </ul>
             </div>
         </div>
@@ -117,9 +153,10 @@
 
 <script>
     import contact from "./contact";
+
     export default {
         name: "Impossible",
-        components:{
+        components: {
             contact
         }
     }
@@ -127,21 +164,24 @@
 
 <style scoped>
 
-    .achivements{
+    .achivements {
         list-style-type: hiragana;
-        font-size: 1.7rem ;
+        font-size: 1.7rem;
     }
 
-    .workingOn ul{
-       list-style-type: none;
+    .workingOn ul {
+        list-style-type: none;
     }
-    span, li{
+
+    span, li {
         font-size: 1.5rem;
     }
-    .completed{
+
+    .completed {
         text-decoration: line-through;
     }
-    .descrip{
+
+    .descrip {
         font-size: 1.5rem;
     }
 </style>
