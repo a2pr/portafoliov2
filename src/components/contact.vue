@@ -8,7 +8,7 @@
                         <p>If you have a project you want to start, or help with any existent project. Get in touch</p>
                     </div>
                     <div class="col-md-6 my-auto">
-                        <a class="btn btn-lg btn-success" href="mailto:placeholder@email.com" >Message me</a>
+                        <a class="btn btn-lg btn-success" href="mailto:a2payema.work@gmail.com?subject=Hello%20andres" target="_blank">Message me</a>
                     </div>
                 </div>
             </div>

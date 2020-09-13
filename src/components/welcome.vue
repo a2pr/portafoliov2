@@ -5,8 +5,8 @@
                 <article class="my-5 py-lg-5">
                     <h1>Hello there.</h1>
                     <img src="../assets/imgs/andresp.jpg" width="25%" class="rounded-circle"/>
-                    <div class="mt-2">
-                        <p> My name is Andres, I'm a web developer based in Manaus, Brazil.
+                    <div class="mt-3">
+                        <p> My name is Andres, I'm a web developer/ Test Analyst based in Manaus, Brazil.
                             I have a passion for learning and love being part of new things .</p>
                     </div>
                 </article>

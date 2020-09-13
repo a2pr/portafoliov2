@@ -7,11 +7,15 @@ Vue.config.productionTip = false;
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-  routes,
-  mode:'history'
+    routes,
+    mode: 'history',
+    scrollBehavior()
+    {
+        return {x: 0, y: 0};
+    }
 });
 
 new Vue({
-  router,
-  render: h => h(App),
+    router,
+    render: h => h(App),
 }).$mount('#app')

@@ -9,7 +9,7 @@
                     <a class="badge badge-light" href="https://github.com/a2pr" target="_blank"> Github</a>
                 </div>
                 <div class="col-4 ">
-                    <a class="badge badge-light" href="mailto:placeholder@email.com" target="_blank"> Hire me </a>
+                    <a class="badge badge-light" href="mailto:a2payema.work@gmail.com?subject=Hello%20andres" target="_blank"> Hire me </a>
                 </div>
             </div>
         </div>

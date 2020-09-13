@@ -9,7 +9,7 @@
                 I recommend this video about it, for more explanation about the concept.
             </p>
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6apcEae2U4w" frameborder="0"
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6apcEae2U4w"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
             </div>
@@ -47,6 +47,10 @@
                     <li>Get a income of 900$ in a month</li>
                     <li>Save at least 900$</li>
                     <li>Make 250$ in freelance work in a month</li>
+                    <span>Fiverr gigs</span>
+                    <ul>
+                        <li>Complete 5 Fiverr gigs</li>
+                    </ul>
                 </ul>
                 <h3>Travels goals</h3>
                 <ul>

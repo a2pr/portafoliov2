@@ -6,16 +6,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
-                <router-link tag="li" to="/" class="nav-item active">
+                <router-link tag="li" :to="{path: '/'}" class="nav-item">
                     <a class="nav-link"> Welcome</a>
                 </router-link>
-                <router-link tag="li" to="/work" class="nav-item">
+                <router-link tag="li" :to="{path: '/work'}" class="nav-item">
                     <a class="nav-link"> Work</a>
                 </router-link>
-                <router-link tag="li" to="/skills" class="nav-item">
+                <router-link tag="li" :to="{path: '/skills'}" class="nav-item">
                     <a class="nav-link">Skills</a>
                 </router-link>
-                <router-link tag="li" to="/impossible" class="nav-item">
+                <router-link tag="li" :to="{path: '/impossible'}" class="nav-item">
                     <a class="nav-link">Impossible List</a>
                 </router-link>
 
@@ -31,7 +31,11 @@
 </script>
 
 <style scoped>
-a{
-    font-size: 1.4rem;
-}
+    a {
+        font-size: 1.4rem;
+    }
+
+    .router-link-exact-active .nav-link {
+        color: white !important;
+    }
 </style>
