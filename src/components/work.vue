@@ -13,16 +13,20 @@
                 </a>
             </div>
         </div>
+        <fiverr></fiverr>
         <contact></contact>
     </div>
 </template>
 
 <script>
     import contact from "./contact";
+    import fiverr from "./fiverr";
+
     export default {
         name: "work",
-        components:{
-            contact
+        components: {
+            contact,
+            fiverr
         },
         data()
         {
@@ -61,7 +65,7 @@
                         'img': '',
                         'link': 'https://github.com/a2pr/Programa-PIM'
                     },
-                    6:{
+                    6: {
                         'title': 'Movie theaters app',
                         'description': 'App for small Movie theaters network, for ticket sell using debit, credit cards and criptocurrency. Project base on C#',
                         'img': '',
@@ -75,17 +79,19 @@
 
 <style scoped>
 
-    .works:nth-child(even){
+    .works:nth-child(even) {
         background: #CCC;
     }
-    .works:nth-child(odd){
+
+    .works:nth-child(odd) {
         background: #FFF;
     }
 
-    p{
+    p {
         font-size: 1.25rem;
     }
-    i{
+
+    i {
         font-size: 40px;
     }
 </style>

@@ -32,34 +32,40 @@
                     </div>
                     <article class=" col-12  col-md-6 ">
                         <h1> I can help you.</h1>
-                        <h3>I'm  currently looking for freelance work.</h3>
+                        <h3>I'm currently looking for freelance work.</h3>
                     </article>
                 </div>
 
             </section>
         </div>
         <contact></contact>
+        <div class="text-center">
+            <fiverr></fiverr>
+        </div>
     </div>
 </template>
 
 <script>
     import contact from "./contact";
+    import fiverr from "./fiverr";
 
     export default {
         name: "welcome",
         components: {
-            contact
+            contact,
+            fiverr
         }
     }
 </script>
 
-<style >
+<style>
 
-    .be-part{
+    .be-part {
         max-width: 60%;
         max-height: 75%;
     }
-    p{
+
+    p {
         font-size: 1.5rem;
     }
 </style>

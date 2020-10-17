@@ -22,11 +22,11 @@
             </p>
             <h3>Last achievements:</h3>
             <ul class="achivements">
-                <li>Beginner Bootstrap 4: Hand code beautiful responsive websites fast (Abril 2020)</li>
                 <li>Modify my portafolio online(May 2020)</li>
                 <li>Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router(June 2020)</li>
                 <li>GraphQL Apollo Server with Node.js, MongoDB - GraphQL API (July 2020)</li>
                 <li>Primer curso Aprende a crear tu propio correo con PHP7, MySQL, Html5 (July 2020)</li>
+                <li>Complete 5 fiverr gigs (Oct 2020)</li>
             </ul>
         </div>
         <div class="my-5 container">
@@ -49,7 +49,10 @@
                     <li>Make 250$ in freelance work in a month</li>
                     <span>Fiverr gigs</span>
                     <ul>
-                        <li>Complete 5 Fiverr gigs</li>
+                        <li class="completed">Complete 5 Fiverr gigs</li>
+                        <li>Complete 25 gigs</li>
+                        <li>Get a custom order of 20$</li>
+                        <li>Get first dev related order</li>
                     </ul>
                 </ul>
                 <h3>Travels goals</h3>
