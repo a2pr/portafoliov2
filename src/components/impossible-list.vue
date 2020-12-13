@@ -22,11 +22,11 @@
             </p>
             <h3>Last achievements:</h3>
             <ul class="achivements">
-                <li>Modify my portafolio online(May 2020)</li>
                 <li>Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router(June 2020)</li>
                 <li>GraphQL Apollo Server with Node.js, MongoDB - GraphQL API (July 2020)</li>
                 <li>Primer curso Aprende a crear tu propio correo con PHP7, MySQL, Html5 (July 2020)</li>
                 <li>Complete 5 fiverr gigs (Oct 2020)</li>
+                <li>Charge ustom order for 20$ (Nov 2020)</li>
             </ul>
         </div>
         <div class="my-5 container">
@@ -87,9 +87,8 @@
                     <ul >
                         <li>Add testing with Jtest</li>
                         <li>Modify project to use gitlab</li>
-                        <li>Modify server to reload correctly</li>
+                        <li class="completed">Modify server to reload correctly</li>
                     </ul>
-
                     <li>Create a mobile app</li>
                     <li>Create a discord bot</li>
                     <li>Create a manga tracking chrome extension</li>
@@ -103,13 +102,15 @@
                     <ul>
                         <li class="completed">First Course of Symfony completed (16/2/2020)</li>
                         <li>Second Course of Symfony</li>
-                        <li>Create 5 projects with Symfony</li>
+                        <span>Create 5 projects with Symfony</span>
+                        <ul>
+                          <li>FTApp in production</li>
+                        </ul>
                         <li>Write an article about the benefits and problems of Symfony</li>
                     </ul>
                     <span>Level up php</span>
                     <ul>
                         <li class="completed">Primer curso Aprende a crear tu propio correo con PHP7, MySQL, Html5 (28/7/2020)</li>
-
                     </ul>
                     <span>Learn Laravel</span>
                     <span>Learn Doctrine</span>
@@ -120,7 +121,10 @@
                     <ul>
                         <li class="completed">First Course of Vue.js 2 Academy: Learn Vue Step by Step (22/03/2020)</li>
                         <li class="completed">Second Course of Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router (June 2020)</li>
-                        <li>Create 4 projects with it</li>
+                        <span>Create 4 projects with it</span>
+                        <ul>
+                          <li>My portafolio</li>
+                        </ul>
                         <li>Write and article about its advantages and fails</li>
                     </ul>
                     <span>Learn Docker</span>
@@ -145,11 +149,15 @@
                 </ul>
                 <h3>QA goals</h3>
                 <ul>
-                    <li>TSPI</li>
+                    <li class="completed">TSPI</li>
                     <li>Winston Castillo Series for QA testing.</li>
                     <li>CI for github</li>
                     <li>CI for gitlab</li>
                     <li>Run first automate test for any personal project.</li>
+                    <li>Learn more about Selenium</li>
+                    <li>Learn more about Jest</li>
+                    <li>Learn more about PHPUnit</li>
+                    <li>Learn more about PHPSpec</li>
                 </ul>
             </div>
         </div>
