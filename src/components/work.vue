@@ -2,11 +2,11 @@
     <div class="text-center">
         <div class="container-fluid py-5  works" v-for="(work, index) in works" :key="index">
             <div class="offset-md-3 col-md-6 col-xs-8">
-                <img v-if="work.img" :src='work.img' alt=""/>
+                <img v-if="work.img" width="70%"  :src="require(`@/assets/imgs/${work.img}`)" alt="img"/>
                 <h1> {{work.title}}</h1>
                 <p>{{work.description}}</p>
                 <a v-if="work.link" class="btn btn-outline-dark" :href="work.link">
-                    <i class="fa fa-github"></i>
+                    <i class="fa fa-link"></i>
                 </a>
                 <a v-else class="btn btn-outline-dark" :href="work.project">
                     <i class="fa fa-folder-open"></i>
@@ -53,11 +53,11 @@
                     },
                     4: {
                         'title': 'Finatial Tracking App',
-                        'description': 'Currently working on an app to store daily income and expenses. It uses dynamic ' +
+                        'description': 'Alpha version done for the app to store daily income and expenses. It uses dynamic ' +
                             'funds and subfunds that the user can modify according to his needs. It also shows the spending ' +
                             'behavior and sets alarm to notify if a selected limit is reached in expenses',
-                        'img': '',
-                        'link': 'https://github.com/a2pr/fta-project'
+                        'img': 'ftapp.png',
+                        'link': 'https://ftapp-production.herokuapp.com/'
                     },
                     5: {
                         'title': 'Pizza management app',
