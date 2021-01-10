@@ -20,13 +20,17 @@
                 Right now my main focus is in a couple of projects for my personal interest. That will help in not only programming proficiency, but also
                 in project management.
             </p>
+            <ul>
+              <li>Complete DTAR course</li>
+              <li>Complete Symfony second course</li>
+            </ul>
             <h3>Last achievements:</h3>
             <ul class="achivements">
-                <li>Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router(June 2020)</li>
-                <li>GraphQL Apollo Server with Node.js, MongoDB - GraphQL API (July 2020)</li>
                 <li>Primer curso Aprende a crear tu propio correo con PHP7, MySQL, Html5 (July 2020)</li>
                 <li>Complete 5 fiverr gigs (Oct 2020)</li>
                 <li>Charge ustom order for 20$ (Nov 2020)</li>
+                <li>FTApp in production (Dec 2020)</li>
+                <li><a href="https://www.udemy.com/course/google-cloud-platform-gcp-fundamentals-for-beginners/">Google Cloud Platform (GCP) Fundamentals for Beginners</a>(Dec 2021)</li>
             </ul>
         </div>
         <div class="my-5 container">
@@ -38,7 +42,7 @@
                     <li>Learn Archery</li>
                     <li>Learn how to dance merengue</li>
                     <li>Learn how to dance salsa</li>
-                    <li> Learn a cocktails</li>
+                    <li>Learn a cocktails</li>
                     <li>Learn how to shoot gun</li>
                     <li>Learn Kendo</li>
                 </ul>
@@ -51,7 +55,10 @@
                     <ul>
                         <li class="completed">Complete 5 Fiverr gigs</li>
                         <li>Complete 25 gigs</li>
-                        <li>Get a custom order of 20$</li>
+                        <span class="completed" >Get a custom order of 20$</span>
+                        <ul>
+                          <li>Charge a custom order for 100$</li>
+                        </ul>
                         <li>Get first dev related order</li>
                     </ul>
                 </ul>
@@ -104,7 +111,9 @@
                         <li>Second Course of Symfony</li>
                         <span>Create 5 projects with Symfony</span>
                         <ul>
-                          <li>FTApp in production</li>
+                          <li class="completed">FTApp in production</li>
+                          <li>Yunyun project</li>
+                          <li>Lelouch project</li>
                         </ul>
                         <li>Write an article about the benefits and problems of Symfony</li>
                     </ul>
@@ -141,15 +150,23 @@
                         <li class="completed">GraphQL Apollo Server with Node.js, MongoDB - GraphQL API (June 2020)</li>
                         <li>Full-Stack VUE with Graphql - the Ultimate Guide</li>
                     </ul>
+                    <span>Google cloud Computing</span>
+                    <ul>
+                      <li class="completed">Google Cloud Platform (GCP) Fundamentals for Beginners (2021/01/09)</li>
+                      <li>Work in a project using GCP</li>
+                      <li>Maybe a certificate Certificate(?</li>
+                    </ul>
                 </ul>
                 <h3>Health goals</h3>
                 <ul>
                     <li>Maintain a wight of 75~80 kg</li>
+                    <li>Diet completion begins of the year</li>
                     <li>Maintain a weekly routine of 15 min for 2 weeks</li>
                 </ul>
                 <h3>QA goals</h3>
                 <ul>
                     <li class="completed">TSPI</li>
+                    <li>DTAR</li>
                     <li>Winston Castillo Series for QA testing.</li>
                     <li>CI for github</li>
                     <li>CI for gitlab</li>
