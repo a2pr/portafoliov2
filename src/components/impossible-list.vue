@@ -28,9 +28,9 @@
             <ul class="achivements">
                 <li>Primer curso Aprende a crear tu propio correo con PHP7, MySQL, Html5 (July 2020)</li>
                 <li>Complete 5 fiverr gigs (Oct 2020)</li>
-                <li>Charge ustom order for 20$ (Nov 2020)</li>
+                <li>Charge custom order for 20$ (Nov 2020)</li>
                 <li>FTApp in production (Dec 2020)</li>
-                <li><a href="https://www.udemy.com/course/google-cloud-platform-gcp-fundamentals-for-beginners/">Google Cloud Platform (GCP) Fundamentals for Beginners</a>(Dec 2021)</li>
+                <li><a href="https://www.udemy.com/course/google-cloud-platform-gcp-fundamentals-for-beginners/">Google Cloud Platform (GCP) Fundamentals for Beginners</a>(Jan 2021)</li>
             </ul>
         </div>
         <div class="my-5 container">
@@ -45,12 +45,16 @@
                     <li>Learn a cocktails</li>
                     <li>Learn how to shoot gun</li>
                     <li>Learn Kendo</li>
+                    <li>Learn new ways types of cafe</li>
                 </ul>
                 <h3>Financial Goals</h3>
                 <ul>
                     <li>Get a income of 900$ in a month</li>
                     <li>Save at least 900$</li>
-                    <li>Make 250$ in freelance work in a month</li>
+                    <span>Make 250$ in freelance work in a month</span>
+                    <ul>
+                      <li>Win a salary of 50</li>
+                    </ul>
                     <span>Fiverr gigs</span>
                     <ul>
                         <li class="completed">Complete 5 Fiverr gigs</li>
@@ -70,6 +74,7 @@
                     <li>Make a travel to UK</li>
                     <li>Make a travel to Vieralves</li>
                     <li>Make a travel to Rio de Janeiro</li>
+                    <li>Make a travel to Santa Catarina</li>
                     <span>Make a travel to Japan</span>
                     <ul>
                         <li>Hokkaido</li>
@@ -105,6 +110,7 @@
                     <li>Learn Jquery Basics</li>
                     <li>Learn React</li>
                     <li>Learn Redis basics</li>
+                    <li>Learn SEO basics</li>
                     <span>Learn Symfony</span>
                     <ul>
                         <li class="completed">First Course of Symfony completed (16/2/2020)</li>
@@ -154,7 +160,16 @@
                     <ul>
                       <li class="completed">Google Cloud Platform (GCP) Fundamentals for Beginners (2021/01/09)</li>
                       <li>Work in a project using GCP</li>
+                      <li>Course on implementation of symfony with gcp</li>
+                      <li>Course for extra services for gcp</li>
+                      <li>Course on preparation to certificate exam</li>
                       <li>Maybe a certificate Certificate(?</li>
+                    </ul>
+                    <span>Gitlab</span>
+                    <ul>
+                      <li>3 projects with gitlab CI for testing</li>
+                      <li>1 gitlab CI project for Deployment</li>
+                      <li>Gitlab read on Documentation</li>
                     </ul>
                 </ul>
                 <h3>Health goals</h3>
@@ -175,6 +190,14 @@
                     <li>Learn more about Jest</li>
                     <li>Learn more about PHPUnit</li>
                     <li>Learn more about PHPSpec</li>
+                </ul>
+                <h3>UX</h3>
+                <ul>
+                  <li>Start new <a href="https://www.sympla.com.br/skill---ux-para-alem-das-telas__1068815">course</a> </li>
+                </ul>
+                <h3>Health</h3>
+                <ul>
+                  <li>Lose weight 80~85 kg</li>
                 </ul>
             </div>
         </div>
