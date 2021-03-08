@@ -2,7 +2,14 @@
     <div class="text-center">
         <div class="container-fluid py-5  works" v-for="(work, index) in works" :key="index">
             <div class="offset-md-3 col-md-6 col-xs-8">
-                <img v-if="work.img" width="70%"  :src="require(`@/assets/imgs/${work.img}`)" alt="img"/>
+                <div v-if="work.youtube">
+                  <iframe width="560" height="315" :src="work.youtube" frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                  </iframe>
+                </div>
+                <div v-else-if="work.img">
+                  <img width="70%"  :src="require(`@/assets/imgs/${work.img}`)" alt="img"/>
+                </div>
                 <h1> {{work.title}}</h1>
                 <p>{{work.description}}</p>
                 <a v-if="work.link" class="btn btn-outline-dark" :href="work.link">
@@ -57,7 +64,8 @@
                             'funds and subfunds that the user can modify according to his needs. It also shows the spending ' +
                             'behavior and sets alarm to notify if a selected limit is reached in expenses',
                         'img': 'ftapp.png',
-                        'link': 'https://ftapp-production.herokuapp.com/'
+                        'link': 'https://ftapp-production.herokuapp.com/',
+                        'youtube':'https://www.youtube.com/embed/lKlSSO9HCeA'
                     },
                     5: {
                         'title': 'Pizza management app',
