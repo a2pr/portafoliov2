@@ -26,7 +26,7 @@ export default {
   },
   computed:{
     getSkills(){
-      return this.$store.getters.getSkillItems
+      return this.$store.getters.getActiveSkillItems
     }
   },
   components: {
