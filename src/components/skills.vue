@@ -1,9 +1,9 @@
 <template>
   <div class="container-fluid my-4">
     <div class="container">
-      <h2> Some of my skills .... </h2>
+      <h2> I have expirences in the following .... </h2>
       <div class="row text-center">
-        <div v-for="(skill, index) in skills" :key="index" class=" col-xs-12 col-md-4 skillContainer my-2 p-2">
+        <div v-for="(skill, index) in getSkills" class="skillContainer col-xs-12 col-md-4  my-2 p-2" :key="index">
           <h3 class="text-uppercase">{{ skill.name }}</h3>
         </div>
       </div>
@@ -20,97 +20,13 @@ export default {
   data()
   {
     return {
-      skills: {
-        1: {
-          'name': 'php',
-          'active': 'true'
-        },
-        2: {
-          'name': 'javascript',
 
-          'active': 'false'
-        },
-        3: {
-          'name': 'C',
-          'active': 'true'
-        },
-        4: {
-          'name': 'C #',
-          'active': 'false'
-        },
-        5: {
-          'name': 'Mysql',
+    }
 
-          'active': 'true'
-        },
-        6: {
-          'name': 'Bootstrap',
-          'active': 'false'
-        },
-        8: {
-          'name': 'Vue.js',
-          'active': 'true'
-        },
-        9: {
-          'name': 'Typescript',
-          'active': 'false'
-        },
-        10: {
-          'name': 'PhpUnit',
-          'img': '',
-          'active': 'true'
-        },
-        11: {
-          'name': 'phpspec',
-          'img': '',
-          'active': 'false'
-        },
-        12: {
-          'name': 'symfony',
-          'img': '',
-          'active': 'true'
-        },
-        13: {
-          'name': 'doctrine',
-          'img': '',
-          'active': 'false'
-        },
-        14: {
-          'name': 'npm',
-          'img': '',
-          'active': 'true'
-        },
-        15: {
-          'name': 'html',
-          'img': '',
-          'active': 'false'
-        },
-        16: {
-          'name': 'CSS',
-          'img': '',
-          'active': 'true'
-        },
-        17: {
-          'name': 'Node.Js',
-          'img': '',
-          'active': 'false'
-        },
-        18: {
-          'name': 'Ruby',
-          'img': '',
-          'active': 'true'
-        },
-        19: {
-          'name': 'JUnit',
-          'img': '',
-          'active': 'false'
-        },
-        20: {
-          'name': 'Doctrine',
-          'img': '',
-          'active': 'true'
-        }
-      }
+  },
+  computed:{
+    getSkills(){
+      return this.$store.getters.getSkillItems
     }
   },
   components: {
