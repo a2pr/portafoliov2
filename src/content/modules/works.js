@@ -45,7 +45,14 @@ const state = {
             'description': 'App for small Movie theaters network, for ticket sell using debit, credit cards and criptocurrency. Project base on C#',
             'img': '',
             'link': 'https://github.com/a2pr/cinemaPIM'
-        }
+        },
+        {
+            'id': 7,
+            'title': 'Yunyun',
+            'description': 'Exchange currency app, for spanish talking user. In Progress',
+            'img': '',
+            'link': ''
+        },
     ]
 }
 

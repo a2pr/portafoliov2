@@ -21,9 +21,7 @@
         in project management.
       </p>
       <ul>
-        <li>Regex course</li>
         <li>GCP courses</li>
-        <li>Complete Symfony second course</li>
       </ul>
       <h3>Last achievements:</h3>
       <ul class="achivements">
