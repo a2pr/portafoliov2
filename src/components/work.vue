@@ -1,9 +1,9 @@
 <template>
     <div class="text-center">
-        <div class="container-fluid py-5  works" v-for="(work, index) in getWorks" :key="index">
-            <div class="offset-md-3 col-md-6 col-xs-8">
-                <div v-if="work.youtube">
-                  <iframe width="560" height="315" :src="work.youtube" frameborder="0"
+        <div class="container-fluid py-5 px-0 works" v-for="(work, index) in getWorks" :key="index">
+            <div class="offset-md-3 col-md-6 col-xs-8 ">
+                <div class="embed-responsive embed-responsive-16by9"  v-if="work.youtube">
+                  <iframe class="embed-responsive-item" :src="work.youtube"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                   </iframe>
                 </div>

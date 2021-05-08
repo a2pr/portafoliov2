@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid my-4">
+  <div class="container-fluid mt-4 px-0">
     <div class="container">
       <h2> I have expirences in the following .... </h2>
       <div class="row text-center">

@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid px-0">
     <div class="container text-center pt-5">
       <h1>Impossible List</h1>
       <p class="descrip text-justify">

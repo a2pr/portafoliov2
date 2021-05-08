@@ -3,6 +3,8 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import {routes} from './routes'
 import {store} from './content/main'
+
+/*https://www.npmjs.com/package/@fortawesome/vue-fontawesome#using-solid-icons*/
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
