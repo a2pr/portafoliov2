@@ -104,6 +104,16 @@ const state ={
             'id': 22,
             'name': 'docker',
             'active':true
+        },
+        {
+            'id': 23,
+            'name': 'docker Compose',
+            'active':true
+        },
+        {
+            'id': 23,
+            'name': 'Google cloud Computing',
+            'active':true
         }
     ]
 }

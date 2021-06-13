@@ -53,6 +53,13 @@ const state = {
             'img': '',
             'link': ''
         },
+        {
+            'id':8,
+            'title':'Ashirpa',
+            'description':'A news reports blog using a wordpress solution with docker-compose as dev environment',
+            'img':'',
+            'link':''
+        }
     ]
 }
 

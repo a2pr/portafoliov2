@@ -22,19 +22,23 @@
       </p>
       <ul>
         <li>GCP courses</li>
+        <li>Ashirpa project</li>
+        <li>Yunyun project</li>
+        <li>Notion Automation</li>
       </ul>
       <h3>Last achievements:</h3>
       <ul class="achivements">
-        <li><a
-            href="https://www.udemy.com/course/google-cloud-platform-gcp-fundamentals-for-beginners/">
-          Google Cloud Platform (GCP) Fundamentals for Beginners (09/01/2021)</a>
-        </li>
-        <li>DTAR (22/02/2020))</li>
         <li>FTApp Presentation deploy (08/03/2021)</li>
         <li>Learn the Basics of LARAVEL(09/03/2021)</li>
         <li><a
             href="https://www.skillshare.com/classes/Learn-laravel-6-Crud-by-creating-a-todo-application-from-Scratch/421078877?via=search-layout-grid">
           Learn laravel 6 Crud by creating a todo application from Scratch (13-03-2021)</a>
+        </li>
+        <li>
+          Complete first course of docker and docker-compose (31-05-2021)
+        </li>
+        <li>
+          Set a wordpress project with gcp (19-05-2021)
         </li>
       </ul>
     </div>
@@ -44,7 +48,7 @@
         <ul>
           <span>Read, write and speak Japanese</span>
           <ul>
-            <li>Write and read Hiragana</li>
+            <li class="completed">Write and read Hiragana</li>
             <li>Write and read Katanas</li>
             <span>Learn kanjis</span>
             <ul>
@@ -63,6 +67,11 @@
         </ul>
         <h3>Financial Goals</h3>
         <ul>
+          <span>Completar reserva financiera en el tesouro selic</span>
+          <ul>
+            <li>3 meses <a href="https://www.youtube.com/watch?v=shfYMvEXqm4">Reserva financiera</a></li>
+            <li>6 meses Reserva financiera</li>
+          </ul>
           <li>Get a income of 900$ in a month</li>
           <li>Save at least 900$</li>
           <span>Make 250$ in freelance work in a month</span>
@@ -149,12 +158,14 @@
           <span>Level up php</span>
           <ul>
             <li class="completed">Primer curso Aprende a crear tu propio correo con PHP7, MySQL, Html5 (28/7/2020)</li>
+            <li>PHP learning 7.4</li>
+            <li>PHP learning 8.0</li>
+            <li>Update base for knowledge</li>
           </ul>
           <span>Learn Laravel</span>
           <ul>
-            <li><a href="https://www.skillshare.com/classes/Learn-the-Basics-of-LARAVEL-and-create-your-own-BUY-AND-SELL-website/1123690265/projects?via=search-layout-grid">
-              Learn the Basics of LARAVEL(09/03/2021)</a></li>
-            <li><a href="https://www.skillshare.com/classes/Learn-the-Basics-of-LARAVEL-and-create-your-own-BUY-AND-SELL-website/1123690265/projects?via=search-layout-grid">
+            <li><a
+                href="https://www.skillshare.com/classes/Learn-the-Basics-of-LARAVEL-and-create-your-own-BUY-AND-SELL-website/1123690265/projects?via=search-layout-grid">
               Learn the Basics of LARAVEL(09/03/2021)</a></li>
             <li>One project with Laravel (maybe Lelouch)</li>
           </ul>
@@ -178,6 +189,7 @@
             <li>set first docker with all the repos i got</li>
             <li>Set a docker with my portfolio environment.</li>
             <li>Learn how to work with dockers with symfony</li>
+            <li class="completed">Complete first course of docker (31-05-2021)</li>
           </ul>
           <span>Maintain knowledge in Bootstrap</span>
           <ul>
@@ -207,6 +219,17 @@
           <ul>
             <li>How To Use API's with Visual Studio, C#, ASP.Net</li>
             <li>Object-Oriented Programming in C#</li>
+          </ul>
+          <span>Aprender wordPress</span>
+          <ul>
+            <span>Set up a first project in hostgator</span>
+            <ul>
+              <li>Connection to DB</li>
+              <li>Connection to cms</li>
+              <li>Set up with domain</li>
+            </ul>
+            <li class="completed">Set project with gcp (19-05-2021)</li>
+            <li>set project with theme</li>
           </ul>
         </ul>
         <h3>Health goals</h3>
