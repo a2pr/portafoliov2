@@ -10,18 +10,15 @@ const state = {
             "GCP courses",
             "Ashirpa project",
             "Yunyun project",
-            "Notion Automation"
+            "Notion Automation",
+            "Ruby on rails studies"
         ],
         lastAchievements: [
-            {description: "FTApp Presentation deploy (08/03/2021)", useLink: false},
-            {description: "FTApp Presentation deploy (08/03/2021)", useLink: false},
-            {
-                description: "Learn laravel 6 Crud by creating a todo application from Scratch (13-03-2021)",
-                useLink: true,
-                link: "https://www.skillshare.com/classes/Learn-laravel-6-Crud-by-creating-a-todo-application-from-Scratch/421078877?via=search-layout-grid"
-            },
-            {description: "Complete first course of docker and docker-compose (31-05-2021)", useLink: false},
-            {description: "Set a wordpress project with gcp (19-05-2021)", useLink: false}
+            {description: "Set a wordpress project with gcp (19-05-2021)", useLink: false},
+            {description: "3 meses Reserva financiera (24/06/2021)", useLink: false},
+            {description: "Ganar un salario independiente de 250$ (28/06/2021)", useLink: false},
+            {description: "Ganar un salario de 50$ (28/06/2021)", useLink: false},
+            {description: "Set up a first project in hostgator with Wordpress(05/07/2021)", useLink: false}
         ],
         sections: [
             {

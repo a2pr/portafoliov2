@@ -55,11 +55,14 @@
             <li>3 meses <a href="https://www.youtube.com/watch?v=shfYMvEXqm4">Reserva financiera</a></li>
             <li>6 meses Reserva financiera</li>
           </ul>
-          <li>Get a income of 900$ in a month</li>
-          <li>Save at least 900$</li>
-          <span>Make 250$ in freelance work in a month</span>
+          <span class="completed">Get a income of 1000$ in a month</span>
           <ul>
-            <li>Win a salary of 50</li>
+            <li>Get a income of 1500$ in a month</li>
+          </ul>
+          <span class="completed">Make 250$ in freelance work in a month</span>
+          <ul>
+            <li class="completed">Win a salary of 50</li>
+            <li >Win a salary of 300</li>
           </ul>
           <span>Fiverr gigs</span>
           <ul>
@@ -165,6 +168,8 @@
             <span>Create 4 projects with it</span>
             <ul>
               <li>My portafolio</li>
+              <li>Diego portafolio</li>
+              <li>Mami portafolio</li>
               <li>ONG portafolio</li>
             </ul>
             <li>Write and article about its advantages and fails</li>
@@ -207,14 +212,14 @@
           </ul>
           <span>Aprender wordPress</span>
           <ul>
-            <span>Set up a first project in hostgator</span>
-            <ul>
-              <li>Connection to DB</li>
-              <li>Connection to cms</li>
-              <li>Set up with domain</li>
+            <span class="completed">Set up a first project in hostgator</span>
+            <ul class="completed">
+              <li class="completed">Connection to DB</li>
+              <li class="completed">Connection to cms</li>
+              <li class="completed">Set up with domain</li>
             </ul>
             <li class="completed">Set project with gcp (19-05-2021)</li>
-            <li>set project with theme</li>
+            <li class="completed">set project with theme</li>
           </ul>
         </ul>
         <h3>Health goals</h3>
