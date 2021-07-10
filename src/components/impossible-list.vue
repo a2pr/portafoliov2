@@ -2,12 +2,7 @@
   <div class="container-fluid px-0">
     <div class="container text-center pt-5">
       <h1>Impossible List</h1>
-      <p class="descrip text-justify">
-        This was an idea that i take from Thomas Frank. Probably you know the term of a bucket list, a list of things you wanted to do before you die. A list that could contain a journey you have postpone
-        for different reasons, lost some weight or to read 15 books a year. But this list probably hasn't been part of an active role in your life. An impossible list makes you want to pursuit this goals, dreams or objectives
-        in an active way, keeping you accountable and remind you of the the things you set for yourself.
-        I recommend this video about it, for more explanation about the concept.
-      </p>
+      <p class="descrip text-justify">{{ description }}</p>
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6apcEae2U4w"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -17,28 +12,16 @@
     <div class="mt-5 container">
       <h2>Current Focuses:</h2>
       <p class="descrip text-justify">
-        Right now my main focus is in a couple of projects for my personal interest. That will help in not only programming proficiency, but also
-        in project management.
+        {{ currentFocus.description }}
       </p>
       <ul>
-        <li>GCP courses</li>
-        <li>Ashirpa project</li>
-        <li>Yunyun project</li>
-        <li>Notion Automation</li>
+        <li v-for="(item, index) in currentFocus.currentList" :key="index">{{ item }}</li>
       </ul>
       <h3>Last achievements:</h3>
       <ul class="achivements">
-        <li>FTApp Presentation deploy (08/03/2021)</li>
-        <li>Learn the Basics of LARAVEL(09/03/2021)</li>
-        <li><a
-            href="https://www.skillshare.com/classes/Learn-laravel-6-Crud-by-creating-a-todo-application-from-Scratch/421078877?via=search-layout-grid">
-          Learn laravel 6 Crud by creating a todo application from Scratch (13-03-2021)</a>
-        </li>
-        <li>
-          Complete first course of docker and docker-compose (31-05-2021)
-        </li>
-        <li>
-          Set a wordpress project with gcp (19-05-2021)
+        <li v-for="(item, index) in currentFocus.lastAchievements" :key="index">
+          <a v-if="item.useLink" :href="item.link">{{ item.description }}</a>
+          <span v-else>{{ item.description }}</span>
         </li>
       </ul>
     </div>
@@ -176,7 +159,9 @@
           <span>Learn Vue.js</span>
           <ul>
             <li class="completed">First Course of Vue.js 2 Academy: Learn Vue Step by Step (22/03/2020)</li>
-            <li class="completed">Second Course of Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router (June 2020)</li>
+            <li class="completed">Second Course of Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router (June
+              2020)
+            </li>
             <span>Create 4 projects with it</span>
             <ul>
               <li>My portafolio</li>
@@ -269,9 +254,16 @@
 
 <script>
 import contact from "./contact";
+import {store} from "../content/main";
 
 export default {
   name: "Impossible",
+  data: function () {
+    return {
+      description: store.getters.getDescriptionImpossible,
+      currentFocus: store.getters.getCurrentFocusImpossible
+    }
+  },
   components: {
     contact
   }
