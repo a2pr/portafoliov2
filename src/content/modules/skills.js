@@ -111,7 +111,12 @@ const state ={
             'active':true
         },
         {
-            'id': 23,
+            'id': 25,
+            'name': 'Kubernetes',
+            'active':true
+        },
+        {
+            'id': 24,
             'name': 'Google cloud Computing',
             'active':true
         }

@@ -49,16 +49,16 @@ const state = {
         {
             'id': 7,
             'title': 'Yunyun',
-            'description': 'Exchange currency app, for spanish talking user. In Progress',
-            'img': '',
-            'link': ''
+            'description': 'Exchange currency app, for spanish talking user.',
+            'img': 'yunyun.png',
+            'link': 'https://yunyun-20.herokuapp.com/'
         },
         {
             'id':8,
             'title':'Ashirpa',
             'description':'A news reports blog using a wordpress solution with docker-compose as dev environment',
-            'img':'',
-            'link':''
+            'img':'ashirpa.png',
+            'link':'https://www.focandonopositivo.com.br/'
         }
     ]
 }
