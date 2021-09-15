@@ -14,11 +14,11 @@ const state = {
             "Ruby on rails studies"
         ],
         lastAchievements: [
-            {description: "Set a wordpress project with gcp (19-05-2021)", useLink: false},
-            {description: "3 meses Reserva financiera (24/06/2021)", useLink: false},
-            {description: "Ganar un salario independiente de 250$ (28/06/2021)", useLink: false},
-            {description: "Ganar un salario de 50$ (28/06/2021)", useLink: false},
-            {description: "Set up a first project in hostgator with Wordpress(05/07/2021)", useLink: false}
+            {description: "Win an independet salary for 250$ (28/06/2021)", useLink: false},
+            {description: "Win an independent pay for 50$ (28/06/2021)", useLink: false},
+            {description: "Set up a first project in hostgator with Wordpress(05/07/2021)", useLink: false},
+            {description: "Win an independent pay for 300$ (31/08/2021)", useLink: false},
+            {description: "Buy a working laptop (01/09/2021)", useLink: false}
         ],
         sections: [
             {

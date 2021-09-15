@@ -50,19 +50,22 @@
         </ul>
         <h3>Financial Goals</h3>
         <ul>
-          <span>Completar reserva financiera en el tesouro selic</span>
+          <span>Complete Financial reserve</span>
           <ul>
-            <li>3 meses <a href="https://www.youtube.com/watch?v=shfYMvEXqm4">Reserva financiera</a></li>
-            <li>6 meses Reserva financiera</li>
+            <li class="completed">3 moths <a href="https://www.youtube.com/watch?v=shfYMvEXqm4">Reserva financiera</a></li>
+            <li>6 months</li>
+            <li>12 months</li>
           </ul>
           <span class="completed">Get a income of 1000$ in a month</span>
           <ul>
+            <li>Get a income of 1330$ in a month</li>
             <li>Get a income of 1500$ in a month</li>
           </ul>
           <span class="completed">Make 250$ in freelance work in a month</span>
           <ul>
-            <li class="completed">Win a salary of 50</li>
-            <li >Win a salary of 300</li>
+            <li class="completed">Make 50$ in freelance work</li>
+            <li class="completed">Make 300$ in freelance work</li>
+            <li >Make 400$ in freelance work</li>
           </ul>
           <span>Fiverr gigs</span>
           <ul>
@@ -121,12 +124,30 @@
           <li>Create a mobile app</li>
           <li>Create a discord bot</li>
           <li>Create a manga tracking chrome extension</li>
-          <li>Learn MYSQL Basics</li>
+          <span>Learn MYSQL Basics</span>
+          <ul>
+            <li>Go back to the basics</li>
+          </ul>
           <li>Learn Node.js advanced features</li>
-          <li>Create a Restful API</li>
-          <li>Learn Jquery Basics</li>
-          <li>Learn React</li>
-          <li>Learn Redis basics</li>
+          <span>Create a Restful API</span>
+          <ul>
+            <li>Standards for Apis</li>
+            <li>Create a domino API using standards (?</li>
+          </ul>
+          <span>Learn Jquery </span>
+          <ul>
+            <li>Go back to the basics</li>
+          </ul>
+          <span>Learn React</span>
+          <ul>
+            <li>Go back to the basics</li>
+          </ul>
+          <span>Learn Redis basics</span>
+          <ul>
+            <li>Get the basics</li>
+            <li>New project only using redis</li>
+            <li>integrate Redis to improve prefmance in an app</li>
+          </ul>
           <li>Learn SEO basics</li>
           <span>Learn Symfony</span>
           <ul>
@@ -136,8 +157,9 @@
             <span>Create 5 projects with Symfony</span>
             <ul>
               <li class="completed">FTApp in production</li>
-              <li>Yunyun project</li>
+              <li class="completed">Yunyun project</li>
               <li>Lelouch project</li>
+              <li>JWT integration for api</li>
             </ul>
             <li>Write an article about the benefits and problems of Symfony</li>
           </ul>
@@ -147,6 +169,7 @@
             <li>PHP learning 7.4</li>
             <li>PHP learning 8.0</li>
             <li>Update base for knowledge</li>
+            <li>Back to basics</li>
           </ul>
           <span>Learn Laravel</span>
           <ul>
@@ -167,9 +190,9 @@
             </li>
             <span>Create 4 projects with it</span>
             <ul>
-              <li>My portafolio</li>
-              <li>Diego portafolio</li>
-              <li>Mami portafolio</li>
+              <li class="completed">My portafolio</li>
+              <li>Brother portafolio</li>
+              <li>Mother portafolio</li>
               <li>ONG portafolio</li>
             </ul>
             <li>Write and article about its advantages and fails</li>
@@ -184,11 +207,17 @@
           <span>Maintain knowledge in Bootstrap</span>
           <ul>
             <li class="completed">Beginner Bootstrap 4: Hand code beautiful responsive websites fast (20/4/2020)</li>
+            <li>Update with Boostrap 5</li>
           </ul>
           <span>Learn Graphql</span>
           <ul>
             <li class="completed">GraphQL Apollo Server with Node.js, MongoDB - GraphQL API (June 2020)</li>
             <li>Full-Stack VUE with Graphql - the Ultimate Guide</li>
+            <li>Using Graphql with one project</li>
+          </ul>
+          <span>Reac Native</span>
+          <ul>
+            <li>Basics</li>
           </ul>
           <span>Google cloud Computing</span>
           <ul>
@@ -204,6 +233,11 @@
             <li>3 projects with gitlab CI for testing</li>
             <li>1 gitlab CI project for Deployment</li>
             <li>Gitlab read on Documentation</li>
+            <li>One project using Jest integration</li>
+            <li>One project using PhpUnit</li>
+            <li>One project using PhpSpec</li>
+            <li>One project using Kubernetes integration</li>
+            <li>One project with direct deployment for an external hosts</li>
           </ul>
           <span>Learn .NET connections using the c#</span>
           <ul>

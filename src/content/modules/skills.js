@@ -3,12 +3,12 @@ const state ={
         {
             'id':1,
             'name': 'php',
-            'active': true
+            'active': false
         },
         {
             'id':2,
             'name': 'javascript',
-            'active': true
+            'active': false
         },
         {
             'id':3,
@@ -38,7 +38,7 @@ const state ={
         {
             'id':9,
             'name': 'Typescript',
-            'active': true
+            'active': false
         },
         {
             'id':10,
@@ -48,11 +48,11 @@ const state ={
         {
             'id':11,
             'name': 'phpspec',
-            'active': true
+            'active': false
         },
         {
             'id':12,
-            'name': 'symfony',
+            'name': 'Symfony',
             'active': true
         },
         {
@@ -83,7 +83,7 @@ const state ={
         {
             'id': 18,
             'name': 'Ruby',
-            'active': true
+            'active': false
         },
         {
             'id': 19,
@@ -118,6 +118,11 @@ const state ={
         {
             'id': 24,
             'name': 'Google cloud Computing',
+            'active':true
+        },
+        {
+            'id': 25,
+            'name': 'rails',
             'active':true
         }
     ]

@@ -26,16 +26,6 @@
                         <img class=" be-part img-thumbnail " src="../assets/imgs/project.png"/>
                     </div>
                 </div>
-                <div class="row my-5 align-items-center">
-                    <div class=" col-md-6 ">
-                        <img class=" be-part img-thumbnail" src="../assets/imgs/code.jpg"/>
-                    </div>
-                    <article class=" col-12  col-md-6 ">
-                        <h1> I can help you.</h1>
-                        <h3>I'm currently looking for freelance work.</h3>
-                    </article>
-                </div>
-
             </section>
         </div>
         <contact></contact>
