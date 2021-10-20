@@ -25,6 +25,18 @@
         </li>
       </ul>
     </div>
+    <br/>
+    <br/>
+    <br/>
+    <li v-for="(item, index) in sections" :key="index">
+      <span >{{ item.name }}</span>
+      <span >{{ item.hasChild }}</span>
+      <span >{{ item.completed }}</span>
+      <span >{{ item.items }}</span>
+    </li>
+    <br/>
+    <br/>
+    <br/>
     <div class="my-5 container">
       <div class="workingOn">
         <h3>New skills</h3>
@@ -32,12 +44,13 @@
           <span>Read, write and speak Japanese</span>
           <ul>
             <li class="completed">Write and read Hiragana</li>
-            <li>Write and read Katanas</li>
+            <li class="completed">Write and read Katanas</li>
             <span>Learn kanjis</span>
             <ul>
               <li> 50 basics</li>
               <li> 100 basics</li>
             </ul>
+            <span>Being able to mantain a simple conversation in japanese</span>
           </ul>
           <li>Learn Boxing</li>
           <li>Learn Archery</li>
@@ -258,9 +271,9 @@
         </ul>
         <h3>Health goals</h3>
         <ul>
-          <li>Maintain a wight of 75~80 kg</li>
           <li>Diet completion begins of the year</li>
           <li>Maintain a weekly routine of 15 min for 2 weeks</li>
+          <li class="completed">Lose weight 80~85 kg</li>
         </ul>
         <h3>QA goals</h3>
         <ul>
@@ -280,10 +293,6 @@
         <ul>
           <li>Start new <a href="https://www.sympla.com.br/skill---ux-para-alem-das-telas__1068815">course</a></li>
         </ul>
-        <h3>Health</h3>
-        <ul>
-          <li>Lose weight 80~85 kg</li>
-        </ul>
       </div>
     </div>
     <contact></contact>
@@ -300,7 +309,8 @@ export default {
   data: function () {
     return {
       description: store.getters.getDescriptionImpossible,
-      currentFocus: store.getters.getCurrentFocusImpossible
+      currentFocus: store.getters.getCurrentFocusImpossible,
+      sections: store.getters.getSections
     }
   },
   components: {
