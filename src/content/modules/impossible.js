@@ -9,7 +9,7 @@ const state = {
         currentList: [
             "Rails Course",
             "Kubernetes Course",
-            "Kubernetes Course"
+            "Rest Api Standards"
         ],
         lastAchievements: [
             {description: "Buy a working laptop (01/09/2021)", useLink: false},
