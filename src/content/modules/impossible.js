@@ -7,18 +7,16 @@ const state = {
         description: "Right now my main focus is in a couple of projects for my personal interest. That will help in not only programming proficiency, but also\n" +
             "        in project management.",
         currentList: [
-            "GCP courses",
-            "Ashirpa project",
-            "Yunyun project",
-            "Notion Automation",
-            "Ruby on rails studies"
+            "Rails Course",
+            "Kubernetes Course",
+            "Kubernetes Course"
         ],
         lastAchievements: [
-            {description: "Win an independet salary for 250$ (28/06/2021)", useLink: false},
-            {description: "Win an independent pay for 50$ (28/06/2021)", useLink: false},
-            {description: "Set up a first project in hostgator with Wordpress(05/07/2021)", useLink: false},
-            {description: "Win an independent pay for 300$ (31/08/2021)", useLink: false},
-            {description: "Buy a working laptop (01/09/2021)", useLink: false}
+            {description: "Buy a working laptop (01/09/2021)", useLink: false},
+            {description: "Reduce weight to 80-85 kg (1 month) (01/10/2021)", useLink: false},
+            {description: "Create a project with kubernetes integration (14/11/2021)", useLink: false},
+            {description: "1 gitlab CI project for Deployment (14/11/2021)", useLink: false},
+            {description: "Modify project to use github pipeline deployment (14/11/2021)", useLink: false}
         ],
         sections: [
             {

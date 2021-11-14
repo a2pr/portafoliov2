@@ -32,7 +32,7 @@
           <span>Read, write and speak Japanese</span>
           <ul>
             <li class="completed">Write and read Hiragana</li>
-            <li>Write and read Katanas</li>
+            <li class="completed">Write and read Katanas</li>
             <span>Learn kanjis</span>
             <ul>
               <li> 50 basics</li>
@@ -118,7 +118,7 @@
           <span class="completed">Modify my portafolio online (May 2020)</span>
           <ul>
             <li>Add testing with Jtest</li>
-            <li>Modify project to use gitlab</li>
+            <li class="completed">Modify project to use github pipeline deployment (14/11/2021)</li>
             <li class="completed">Modify server to reload correctly</li>
           </ul>
           <li>Create a mobile app</li>
@@ -152,7 +152,7 @@
           <span>Learn Symfony</span>
           <ul>
             <li class="completed">First Course of Symfony completed (16/2/2020)</li>
-            <li><a href="https://www.udemy.com/home/my-courses/learning/?sort=-enroll_time&p=1">
+            <li class="completed"><a href="https://www.udemy.com/home/my-courses/learning/?sort=-enroll_time&p=1">
               Second Course of Symfony</a></li>
             <span>Create 5 projects with Symfony</span>
             <ul>
@@ -173,7 +173,7 @@
           </ul>
           <span>Learn Laravel</span>
           <ul>
-            <li><a
+            <li class="completed"><a
                 href="https://www.skillshare.com/classes/Learn-the-Basics-of-LARAVEL-and-create-your-own-BUY-AND-SELL-website/1123690265/projects?via=search-layout-grid">
               Learn the Basics of LARAVEL(09/03/2021)</a></li>
             <li>One project with Laravel (maybe Lelouch)</li>
@@ -231,12 +231,12 @@
           <span>Gitlab</span>
           <ul>
             <li>3 projects with gitlab CI for testing</li>
-            <li>1 gitlab CI project for Deployment</li>
+            <li class="completed">1 gitlab CI project for Deployment(14/11/2021)</li>
             <li>Gitlab read on Documentation</li>
             <li>One project using Jest integration</li>
             <li>One project using PhpUnit</li>
             <li>One project using PhpSpec</li>
-            <li>One project using Kubernetes integration</li>
+            <li class="completed">One project with kubernetes integration(14/11/2021)</li>
             <li>One project with direct deployment for an external hosts</li>
           </ul>
           <span>Learn .NET connections using the c#</span>
