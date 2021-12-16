@@ -58,8 +58,8 @@
           </ul>
           <span class="completed">Get a income of 1000$ in a month</span>
           <ul>
-            <li>Get a income of 1330$ in a month</li>
-            <li>Get a income of 1500$ in a month</li>
+            <li class="completed">Get a income of 1330$ in a month</li>
+            <li class="completed">Get a income of 1500$ in a month</li>
           </ul>
           <span class="completed">Make 250$ in freelance work in a month</span>
           <ul>
@@ -67,6 +67,15 @@
             <li class="completed">Make 300$ in freelance work</li>
             <li >Make 400$ in freelance work</li>
           </ul>
+          <span>Invest R$ 50000</span>
+          <ul>
+            <li class="completed">Invest R$ 15000 </li>
+            <li >Invest R$ 50000 </li>
+            <li >Invest R$ 100000 </li>
+            <li >Invest R$ 250000 </li>
+          </ul>
+          <span>Create Investment portfolio 2022</span>
+          <span>Apply to variable income</span>
           <span>Fiverr gigs</span>
           <ul>
             <li class="completed">Complete 5 Fiverr gigs</li>
@@ -80,13 +89,13 @@
         </ul>
         <h3>Travels goals</h3>
         <ul>
-          <li><strong> Make a solo travel to any destination</strong></li>
+          <li class="completed"><strong> Make a solo travel to any destination</strong></li>
           <li>Make a travel to Spain</li>
           <li>Make a travel to USA</li>
           <li>Make a travel to UK</li>
           <li>Make a travel to Vieralves</li>
           <li>Make a travel to Rio de Janeiro</li>
-          <li>Make a travel to Santa Catarina</li>
+          <li class="completed">Make a travel to Santa Catarina</li>
           <span>Make a travel to Japan</span>
           <ul>
             <span>Hokkaido</span>
@@ -236,6 +245,7 @@
             <li>One project using Jest integration</li>
             <li>One project using PhpUnit</li>
             <li>One project using PhpSpec</li>
+            <li>Full CI/CD piepline (test/ deployment)</li>
             <li class="completed">One project with kubernetes integration(14/11/2021)</li>
             <li>One project with direct deployment for an external hosts</li>
           </ul>

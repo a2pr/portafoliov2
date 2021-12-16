@@ -12,11 +12,11 @@ const state = {
             "Rest Api Standards"
         ],
         lastAchievements: [
-            {description: "Buy a working laptop (01/09/2021)", useLink: false},
-            {description: "Reduce weight to 80-85 kg (1 month) (01/10/2021)", useLink: false},
-            {description: "Create a project with kubernetes integration (14/11/2021)", useLink: false},
             {description: "1 gitlab CI project for Deployment (14/11/2021)", useLink: false},
-            {description: "Modify project to use github pipeline deployment (14/11/2021)", useLink: false}
+            {description: "Modify project to use github pipeline deployment (14/11/2021)", useLink: false},
+            {description: "Travel alone to any destination (20/11/2021)", useLink: false},
+            {description: "Travel to any destination (20/11/2021)", useLink: false},
+            {description: "Obtain an income of R$ 8000 (28/11/2021)", useLink: false},
         ],
         sections: [
             {
