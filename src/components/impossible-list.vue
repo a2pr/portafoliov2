@@ -32,17 +32,19 @@
           <span>Read, write and speak Japanese</span>
           <ul>
             <li class="completed">Write and read Hiragana</li>
-            <li>Write and read Katanas</li>
+            <li class="completed">Write and read Katanas</li>
             <span>Learn kanjis</span>
             <ul>
               <li> 50 basics</li>
               <li> 100 basics</li>
+              <li> Being able to mantain a simple conversation in japanese</li>
             </ul>
           </ul>
           <li>Learn Boxing</li>
           <li>Learn Archery</li>
           <li>Learn how to dance merengue</li>
-          <li>Learn how to dance salsa</li>
+          <li>Learn how to dance Forro</li>
+          <li>Learn how to dance Salsa</li>
           <li>Learn a cocktails</li>
           <li>Learn how to shoot gun</li>
           <li>Learn Kendo</li>
@@ -58,14 +60,15 @@
           </ul>
           <span class="completed">Get a income of 1000$ in a month</span>
           <ul>
-            <li>Get a income of 1330$ in a month</li>
-            <li>Get a income of 1500$ in a month</li>
+            <li class="completed">Get a income of 1330$ in a month</li>
+            <li class="completed">Get a income of 1500$ in a month</li>
+            <li>Get a income of 7000$ in a month</li>
           </ul>
           <span class="completed">Make 250$ in freelance work in a month</span>
           <ul>
             <li class="completed">Make 50$ in freelance work</li>
             <li class="completed">Make 300$ in freelance work</li>
-            <li >Make 400$ in freelance work</li>
+            <li class="completed">Make 400$ in freelance work</li>
           </ul>
           <span>Fiverr gigs</span>
           <ul>
@@ -80,13 +83,13 @@
         </ul>
         <h3>Travels goals</h3>
         <ul>
-          <li><strong> Make a solo travel to any destination</strong></li>
+          <li class="completed"><strong> Make a solo travel to any destination (11/2021)</strong></li>
           <li>Make a travel to Spain</li>
-          <li>Make a travel to USA</li>
+          <li class="completed">Make a travel to USA (21/01/2022)</li>
           <li>Make a travel to UK</li>
           <li>Make a travel to Vieralves</li>
           <li>Make a travel to Rio de Janeiro</li>
-          <li>Make a travel to Santa Catarina</li>
+          <li class="completed">Make a travel to Santa Catarina  (11/2021)</li>
           <span>Make a travel to Japan</span>
           <ul>
             <span>Hokkaido</span>
@@ -118,7 +121,7 @@
           <span class="completed">Modify my portafolio online (May 2020)</span>
           <ul>
             <li>Add testing with Jtest</li>
-            <li>Modify project to use gitlab</li>
+            <li class="completed">Modify project to use gitlab (14/11/2021)</li>
             <li class="completed">Modify server to reload correctly</li>
           </ul>
           <li>Create a mobile app</li>
@@ -152,8 +155,8 @@
           <span>Learn Symfony</span>
           <ul>
             <li class="completed">First Course of Symfony completed (16/2/2020)</li>
-            <li><a href="https://www.udemy.com/home/my-courses/learning/?sort=-enroll_time&p=1">
-              Second Course of Symfony</a></li>
+            <li class="completed"><a href="https://www.udemy.com/home/my-courses/learning/?sort=-enroll_time&p=1">
+              Second Course of Symfony</a> (26/02/2020)</li>
             <span>Create 5 projects with Symfony</span>
             <ul>
               <li class="completed">FTApp in production</li>
@@ -173,9 +176,12 @@
           </ul>
           <span>Learn Laravel</span>
           <ul>
-            <li><a
+            <li class="completed"><a
                 href="https://www.skillshare.com/classes/Learn-the-Basics-of-LARAVEL-and-create-your-own-BUY-AND-SELL-website/1123690265/projects?via=search-layout-grid">
               Learn the Basics of LARAVEL(09/03/2021)</a></li>
+            <li class="completed"><a
+                href="https://www.skillshare.com/classes/Learn-laravel-6-Crud-by-creating-a-todo-application-from-Scratch/421078877?via=search-layout-grid">
+              Learn laravel 6 Crud by creating a todo application from Scratch (13/03/2021)</a></li>
             <li>One project with Laravel (maybe Lelouch)</li>
           </ul>
           <span>Learn Doctrine</span>
@@ -231,12 +237,12 @@
           <span>Gitlab</span>
           <ul>
             <li>3 projects with gitlab CI for testing</li>
-            <li>1 gitlab CI project for Deployment</li>
+            <li class="completed">1 gitlab CI project for Deployment (14/11/2021)</li>
             <li>Gitlab read on Documentation</li>
             <li>One project using Jest integration</li>
             <li>One project using PhpUnit</li>
             <li>One project using PhpSpec</li>
-            <li>One project using Kubernetes integration</li>
+            <li class="completed">One project using Kubernetes integration (14/11/2021)</li>
             <li>One project with direct deployment for an external hosts</li>
           </ul>
           <span>Learn .NET connections using the c#</span>
