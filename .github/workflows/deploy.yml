@@ -1,0 +1,27 @@
+name: Portafolio Continuous Deployment
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      - name: 🔨 build project
+        uses: actions/setup-node@master
+        with:
+          node-version: 14
+      - run: npm install
+      - run: npm run build
+
+      - name: 📁 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ${{ secrets.PORTFOLIO_HOST }}
+          username: ${{ secrets.PORTFOLIO_USERNAME }}
+          password: ${{ secrets.PORTFOLIO_PASSWORD }}
+          local-dir: ./dist/
