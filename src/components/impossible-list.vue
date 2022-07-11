@@ -43,6 +43,10 @@
           <li>Learn Archery</li>
           <li>Learn how to dance merengue</li>
           <li>Learn how to dance salsa</li>
+          <span class="completed">Learn how to dance Forro</span>
+          <ul>
+            <li>Dance with at least 7 people on one night</li>
+          </ul>
           <li>Learn a cocktails</li>
           <li>Learn how to shoot gun</li>
           <li>Learn Kendo</li>
@@ -70,12 +74,12 @@
           <span>Invest R$ 50000</span>
           <ul>
             <li class="completed">Invest R$ 15000 </li>
-            <li >Invest R$ 50000 </li>
+            <li class="completed">Invest R$ 50000 </li>
             <li >Invest R$ 100000 </li>
             <li >Invest R$ 250000 </li>
           </ul>
-          <span>Create Investment portfolio 2022</span>
-          <span>Apply to variable income</span>
+          <span class="completed">Create Investment portfolio 2022</span>
+          <span class="completed">Apply to variable income</span>
           <span>Fiverr gigs</span>
           <ul>
             <li class="completed">Complete 5 Fiverr gigs</li>
@@ -91,11 +95,24 @@
         <ul>
           <li class="completed"><strong> Make a solo travel to any destination</strong></li>
           <li>Make a travel to Spain</li>
-          <li>Make a travel to USA</li>
+          <span class="completed">Make a travel to USA</span>
+          <ul>
+            <li>Travel again to LA</li>
+            <li>Travel To disney (Orlando)</li>
+            <li>Travel To Volcano Bay (Orlando)</li>
+          </ul>
           <li>Make a travel to UK</li>
           <li>Make a travel to Vieralves</li>
           <li>Make a travel to Rio de Janeiro</li>
-          <li class="completed">Make a travel to Santa Catarina</li>
+          <span>Brasil</span>
+          <ul>
+            <li class="completed">Make a travel to Santa Catarina</li>
+            <li>Travel to Rio de janeiro</li>
+            <li>Travel to Vieralves</li>
+            <li>Travel to Campinas</li>
+            <li>Travel to Sao Paulo</li>
+            <li class="completed">Travel to Curitiba</li>
+          </ul>
           <span>Make a travel to Japan</span>
           <ul>
             <span>Hokkaido</span>
