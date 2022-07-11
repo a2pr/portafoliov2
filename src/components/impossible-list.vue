@@ -37,6 +37,7 @@
             <ul>
               <li> 50 basics</li>
               <li> 100 basics</li>
+              <li> Being able to mantain a simple conversation in japanese</li>
             </ul>
           </ul>
           <li>Learn Boxing</li>
@@ -64,12 +65,13 @@
           <ul>
             <li class="completed">Get a income of 1330$ in a month</li>
             <li class="completed">Get a income of 1500$ in a month</li>
+            <li>Get a income of 7000$ in a month</li>
           </ul>
           <span class="completed">Make 250$ in freelance work in a month</span>
           <ul>
             <li class="completed">Make 50$ in freelance work</li>
             <li class="completed">Make 300$ in freelance work</li>
-            <li >Make 400$ in freelance work</li>
+            <li class="completed">Make 400$ in freelance work</li>
           </ul>
           <span>Invest R$ 50000</span>
           <ul>
@@ -93,9 +95,9 @@
         </ul>
         <h3>Travels goals</h3>
         <ul>
-          <li class="completed"><strong> Make a solo travel to any destination</strong></li>
+          <li class="completed"><strong> Make a solo travel to any destination (11/2021)</strong></li>
           <li>Make a travel to Spain</li>
-          <span class="completed">Make a travel to USA</span>
+          <span class="completed">Make a travel to USA (21/01/2022)</span>
           <ul>
             <li>Travel again to LA</li>
             <li>Travel To disney (Orlando)</li>
@@ -106,7 +108,7 @@
           <li>Make a travel to Rio de Janeiro</li>
           <span>Brasil</span>
           <ul>
-            <li class="completed">Make a travel to Santa Catarina</li>
+            <li class="completed">Make a travel to Santa Catarina (11/2021)</li>
             <li>Travel to Rio de janeiro</li>
             <li>Travel to Vieralves</li>
             <li>Travel to Campinas</li>
@@ -144,7 +146,7 @@
           <span class="completed">Modify my portafolio online (May 2020)</span>
           <ul>
             <li>Add testing with Jtest</li>
-            <li class="completed">Modify project to use github pipeline deployment (14/11/2021)</li>
+            <li class="completed">Modify project to use gitlab (14/11/2021)</li>
             <li class="completed">Modify server to reload correctly</li>
           </ul>
           <li>Create a mobile app</li>
@@ -179,7 +181,7 @@
           <ul>
             <li class="completed">First Course of Symfony completed (16/2/2020)</li>
             <li class="completed"><a href="https://www.udemy.com/home/my-courses/learning/?sort=-enroll_time&p=1">
-              Second Course of Symfony</a></li>
+              Second Course of Symfony</a> (26/02/2020)</li>
             <span>Create 5 projects with Symfony</span>
             <ul>
               <li class="completed">FTApp in production</li>
@@ -202,6 +204,9 @@
             <li class="completed"><a
                 href="https://www.skillshare.com/classes/Learn-the-Basics-of-LARAVEL-and-create-your-own-BUY-AND-SELL-website/1123690265/projects?via=search-layout-grid">
               Learn the Basics of LARAVEL(09/03/2021)</a></li>
+            <li class="completed"><a
+                href="https://www.skillshare.com/classes/Learn-laravel-6-Crud-by-creating-a-todo-application-from-Scratch/421078877?via=search-layout-grid">
+              Learn laravel 6 Crud by creating a todo application from Scratch (13/03/2021)</a></li>
             <li>One project with Laravel (maybe Lelouch)</li>
           </ul>
           <span>Learn Doctrine</span>
@@ -257,13 +262,12 @@
           <span>Gitlab</span>
           <ul>
             <li>3 projects with gitlab CI for testing</li>
-            <li class="completed">1 gitlab CI project for Deployment(14/11/2021)</li>
+            <li class="completed">1 gitlab CI project for Deployment (14/11/2021)</li>
             <li>Gitlab read on Documentation</li>
             <li>One project using Jest integration</li>
             <li>One project using PhpUnit</li>
             <li>One project using PhpSpec</li>
-            <li>Full CI/CD piepline (test/ deployment)</li>
-            <li class="completed">One project with kubernetes integration(14/11/2021)</li>
+            <li class="completed">One project using Kubernetes integration (14/11/2021)</li>
             <li>One project with direct deployment for an external hosts</li>
           </ul>
           <span>Learn .NET connections using the c#</span>

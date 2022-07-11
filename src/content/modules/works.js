@@ -2,8 +2,8 @@ const state = {
     works: [
         {
             'id': 1,
-            'title': 'Testing testing testing',
-            'description': ' As part of Made simple group, I have being writing/developing tests to verify new features',
+            'title': 'Development & Testing',
+            'description': 'As part of Made simple group development, I had develop new features into their different projects i was assign to',
             'img': '',
             'project': 'https://www.companiesmadesimple.com/'
         },
