@@ -58,7 +58,7 @@
           <span>Complete Financial reserve</span>
           <ul>
             <li class="completed">3 moths <a href="https://www.youtube.com/watch?v=shfYMvEXqm4">Reserva financiera</a></li>
-            <li>6 months</li>
+            <li class="completed" >6 months (09/2021)</li>
             <li>12 months</li>
           </ul>
           <span class="completed">Get a income of 1000$ in a month</span>
@@ -109,11 +109,20 @@
           <span>Brasil</span>
           <ul>
             <li class="completed">Make a travel to Santa Catarina (11/2021)</li>
-            <li>Travel to Rio de janeiro</li>
-            <li>Travel to Vieralves</li>
+            <li class="completed">Travel to Rio de janeiro (11/2022)</li>
+            <li class="completed">Travel to Vieralves (11/2021)</li>
             <li>Travel to Campinas</li>
-            <li>Travel to Sao Paulo</li>
-            <li class="completed">Travel to Curitiba</li>
+            <li class="completed">Travel to Sao Paulo (11/2022)</li>
+            <span class="completed">Travel to Curitiba (06/2021)</span>
+            <ul>
+              <li> Travel to Lapa</li>
+              <li> Travel to Ilha do mel</li>
+              <li> Travel to Ponta grossa</li>
+              <li> Travel to Prudentopolis</li>
+              <li> Travel to Tibagi</li>
+              <li> Travel to Jaguariavia</li>
+              <li> Travel to Londrina</li>
+            </ul>
           </ul>
           <span>Make a travel to Japan</span>
           <ul>

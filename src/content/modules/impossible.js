@@ -8,13 +8,12 @@ const state = {
             "        in project management.",
         currentList: [
             "Devopts bootcamp",
-            "MCN1",
             "php standards"
         ],
         lastAchievements: [
-            {description: "Complete first course PHPUnit (14/04/2022)", useLink: false},
-            {description: "Maintain a weekly habit of exercise for 2 weeks (7/05/2022)", useLink: false},
-            {description: "Learn how to dance forro (25/05/2022)", useLink: false},
+            {description: "Travel to Rio de Janeiro (11/2021)", useLink: false},
+            {description: "Complete MCN1 (11/2022)", useLink: false},
+            {description: "Travel to Sao Paulo (10/2022)", useLink: false},
         ],
         sections: [
             {
