@@ -60,6 +60,7 @@
             <li class="completed">3 moths <a href="https://www.youtube.com/watch?v=shfYMvEXqm4">Reserva financiera</a></li>
             <li class="completed" >6 months (09/2021)</li>
             <li>12 months</li>
+            <li>extra 30% safety net</li>
           </ul>
           <span class="completed">Get a income of 1000$ in a month</span>
           <ul>
@@ -75,12 +76,17 @@
           </ul>
           <span>Invest R$ 50000</span>
           <ul>
-            <li class="completed">Invest R$ 15000 </li>
-            <li class="completed">Invest R$ 50000 </li>
-            <li >Invest R$ 100000 </li>
+            <li class="completed">Invest R$ 15000 (14/11/2021)</li>
+            <li class="completed">Invest R$ 50000 (28/06/2022)</li>
+            <li class="completed" >Invest R$ 100000 (11/01/2023)</li>
             <li >Invest R$ 250000 </li>
+            <li >Invest R$ 1.000.000 </li>
           </ul>
           <span class="completed">Create Investment portfolio 2022</span>
+          <ul>
+            <li>Update portfolio diversification (stocks)</li>
+            <li>Update portfolio diversification (bitcoin)</li>
+          </ul>
           <span class="completed">Apply to variable income</span>
           <span>Fiverr gigs</span>
           <ul>
@@ -100,6 +106,7 @@
           <span class="completed">Make a travel to USA (21/01/2022)</span>
           <ul>
             <li>Travel again to LA</li>
+            <li>Travel To NY</li>
             <li>Travel To disney (Orlando)</li>
             <li>Travel To Volcano Bay (Orlando)</li>
           </ul>
@@ -112,6 +119,7 @@
             <li class="completed">Travel to Rio de janeiro (11/2022)</li>
             <li class="completed">Travel to Vieralves (11/2021)</li>
             <li>Travel to Campinas</li>
+            <li>Travel to Vieralves</li>
             <li class="completed">Travel to Sao Paulo (11/2022)</li>
             <span class="completed">Travel to Curitiba (06/2021)</span>
             <ul>
@@ -120,8 +128,11 @@
               <li> Travel to Ponta grossa</li>
               <li> Travel to Prudentopolis</li>
               <li> Travel to Tibagi</li>
+              <li> Travel to Castro</li>
               <li> Travel to Jaguariavia</li>
               <li> Travel to Londrina</li>
+              <li> Travel to Maringa</li>
+              <li> Travel to Paranagua</li>
             </ul>
           </ul>
           <span>Make a travel to Japan</span>
@@ -141,6 +152,7 @@
           <li>Make a travel to Venezuela</li>
           <li>Make a travel to Argentina</li>
           <li>Make a travel to Canada</li>
+          <li>Make a travel to Sao Roque</li>
         </ul>
         <h3>Events to assist</h3>
         <ul>
@@ -148,6 +160,9 @@
           <li>A Dota 2 Major</li>
           <li>Comic con</li>
           <li>Comiket</li>
+          <li>CCXP (Comic Con Experience</li>
+          <li>BGS (Brasil Game Show)</li>
+          <li>CP (Campus Party)</li>
         </ul>
         <h3>Programing goals</h3>
         <ul>
@@ -168,8 +183,14 @@
           <li>Learn Node.js advanced features</li>
           <span>Create a Restful API</span>
           <ul>
-            <li>Standards for Apis</li>
+            <span>Standards for Apis</span>
+            <ul>
+              <li>PHP</li>
+              <li>express</li>
+              <li>Documentation swagger</li>
+            </ul>
             <li>Create a domino API using standards (?</li>
+            <li>Testing apis</li>
           </ul>
           <span>Learn Jquery </span>
           <ul>
@@ -199,6 +220,7 @@
               <li>JWT integration for api</li>
             </ul>
             <li>Write an article about the benefits and problems of Symfony</li>
+            <li>Dockerize a symfony project</li>
           </ul>
           <span>Level up php</span>
           <ul>
@@ -228,6 +250,7 @@
             <li class="completed">Second Course of Vue.js: Build a Full Stack App With Firebase, Vuex & Vue Router (June
               2020)
             </li>
+            <li>Vuejs 3 course</li>
             <span>Create 4 projects with it</span>
             <ul>
               <li class="completed">My portafolio</li>
@@ -239,9 +262,10 @@
           </ul>
           <span>Learn Docker</span>
           <ul>
+            <li>Learn how to work with dockers with symfony</li>
+            <li>Docker for laravel</li>
             <li>set first docker with all the repos i got</li>
             <li>Set a docker with my portfolio environment.</li>
-            <li>Learn how to work with dockers with symfony</li>
             <li class="completed">Complete first course of docker (31-05-2021)</li>
           </ul>
           <span>Maintain knowledge in Bootstrap</span>
@@ -298,9 +322,11 @@
         </ul>
         <h3>Health goals</h3>
         <ul>
-          <li>Maintain a wight of 75~80 kg</li>
+          <li>Maintain a wight of 80-85 kg</li>
           <li>Diet completion begins of the year</li>
-          <li>Maintain a weekly routine of 15 min for 2 weeks</li>
+          <li>Correr 5k</li>
+          <li>Correr 10k</li>
+          <li class="completed">Maintain a weekly routine of 15 min for 2 weeks (7/05/2022)</li>
         </ul>
         <h3>QA goals</h3>
         <ul>
@@ -319,10 +345,6 @@
         <h3>UX</h3>
         <ul>
           <li>Start new <a href="https://www.sympla.com.br/skill---ux-para-alem-das-telas__1068815">course</a></li>
-        </ul>
-        <h3>Health</h3>
-        <ul>
-          <li>Lose weight 80~85 kg</li>
         </ul>
       </div>
     </div>

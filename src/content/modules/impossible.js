@@ -8,10 +8,10 @@ const state = {
             "        in project management.",
         currentList: [
             "Devopts bootcamp",
-            "php standards"
+            "php standards",
+            "rspec course(ruby)"
         ],
         lastAchievements: [
-            {description: "Travel to Rio de Janeiro (11/2021)", useLink: false},
             {description: "Complete MCN1 (11/2022)", useLink: false},
             {description: "Travel to Sao Paulo (10/2022)", useLink: false},
         ],
