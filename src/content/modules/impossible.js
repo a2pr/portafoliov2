@@ -12,8 +12,9 @@ const state = {
             "rspec course(ruby)"
         ],
         lastAchievements: [
-            {description: "Complete MCN1 (11/2022)", useLink: false},
             {description: "Travel to Sao Paulo (10/2022)", useLink: false},
+            {description: "Complete MCN1 (11/2022)", useLink: false},
+            {description: "12 months Financial security (10/2023)", useLink: false},
         ],
         sections: [
             {

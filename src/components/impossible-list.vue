@@ -46,7 +46,7 @@
           <li>Learn how to dance salsa</li>
           <span class="completed">Learn how to dance Forro</span>
           <ul>
-            <li>Dance with at least 7 people on one night</li>
+            <li class="completed">Dance with at least 7 people on one night</li>
           </ul>
           <li>Learn a cocktails</li>
           <li>Learn how to shoot gun</li>
@@ -66,7 +66,7 @@
           <ul>
             <li class="completed">Get a income of 1330$ in a month</li>
             <li class="completed">Get a income of 1500$ in a month</li>
-            <li>Get a income of 7000$ in a month</li>
+            <li class="completed">Get a income of 7000$ in a month</li>
           </ul>
           <span class="completed">Make 250$ in freelance work in a month</span>
           <ul>
